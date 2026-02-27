@@ -99,15 +99,15 @@ Project:
    Module: FTOptix.NetLogic
    Version: 4.0
  Statistics:
-  TotalNodeCount: 52397
-  Objects: 2640
+  TotalNodeCount: 52426
+  Objects: 2646
   ObjectTypes: 123
-  Variables: 49506
+  Variables: 49529
   VariableTypes: 56
   DataTypes: 56
   Methods: 16
-  References: 129
+  References: 135
   ReferenceTypes: 0
-  Files: 73
+  Files: 77
  Nodes:
  - File: Nodes/Cargill_Charlotte_wStandards.yaml
