@@ -1,0 +1,27 @@
+Name: Roles
+Type: RolesCategoryFolder
+Children:
+- Name: Tune
+  Id: g=ad2d5fd8eec46d155f0d9e37e65d66fd
+  Type: ns=1;RoleType
+- Name: Bypass
+  Id: g=0b848ba8746fcb244ccc45c3f40d459b
+  Type: ns=1;RoleType
+- Name: Lab Approver
+  Id: g=15d52c3343a35a963af45a981dbdf4ba
+  Type: ns=1;RoleType
+- Name: CSD
+  Id: g=7b8bc153908d770c338dee0e4ee5b956
+  Type: ns=1;RoleType
+- Name: Parameter
+  Id: g=401fd934501437b0d096b395ccc44909
+  Type: ns=1;RoleType
+- Name: Operate
+  Id: g=6e2586c88560736b4c6a64ee8ab758a6
+  Type: ns=1;RoleType
+- Name: Alarm Manage
+  Id: g=3275f31b4e3a8a9c286d1e49a724c73a
+  Type: ns=1;RoleType
+- Name: Configure
+  Id: g=a409deddc13b10e982687191c5a0c13f
+  Type: ns=1;RoleType

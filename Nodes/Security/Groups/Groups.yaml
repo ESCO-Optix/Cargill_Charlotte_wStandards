@@ -1,0 +1,98 @@
+Name: Groups
+Type: GroupsCategoryFolder
+Children:
+- Name: View
+  Id: g=71e64eed8360cf0cd5bb291402caf583
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=0b848ba8746fcb244ccc45c3f40d459b
+  - Class: Reference
+    Type: HasRole
+    Target: g=7b8bc153908d770c338dee0e4ee5b956
+  - Class: Reference
+    Type: HasRole
+    Target: g=15d52c3343a35a963af45a981dbdf4ba
+  - Class: Reference
+    Type: HasRole
+    Target: g=3275f31b4e3a8a9c286d1e49a724c73a
+  - Class: Reference
+    Type: HasRole
+    Target: g=6e2586c88560736b4c6a64ee8ab758a6
+  - Class: Reference
+    Type: HasRole
+    Target: g=401fd934501437b0d096b395ccc44909
+  - Class: Reference
+    Type: HasRole
+    Target: g=ad2d5fd8eec46d155f0d9e37e65d66fd
+- Name: Operator
+  Id: g=33a97758c757d513539d0292501ac363
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=6e2586c88560736b4c6a64ee8ab758a6
+- Name: Supervisor
+  Id: g=971d53e49c36535cb3795119936ac06b
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=401fd934501437b0d096b395ccc44909
+- Name: Engineer
+  Id: g=a48ca212569bb07b7323a245c0d930b0
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=ad2d5fd8eec46d155f0d9e37e65d66fd
+  - Class: Reference
+    Type: HasRole
+    Target: g=0b848ba8746fcb244ccc45c3f40d459b
+- Name: Process Engineer
+  Id: g=b4e4a6373f069935224ec29c8f280aa6
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=ad2d5fd8eec46d155f0d9e37e65d66fd
+  - Class: Reference
+    Type: HasRole
+    Target: g=401fd934501437b0d096b395ccc44909
+  - Class: Reference
+    Type: HasRole
+    Target: g=3275f31b4e3a8a9c286d1e49a724c73a
+  - Class: Reference
+    Type: HasRole
+    Target: g=a409deddc13b10e982687191c5a0c13f
+- Name: Admin
+  Id: g=88cd173f86abecb4ec47f2c526bd6193
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=0b848ba8746fcb244ccc45c3f40d459b
+  - Class: Reference
+    Type: HasRole
+    Target: g=7b8bc153908d770c338dee0e4ee5b956
+  - Class: Reference
+    Type: HasRole
+    Target: g=15d52c3343a35a963af45a981dbdf4ba
+  - Class: Reference
+    Type: HasRole
+    Target: g=3275f31b4e3a8a9c286d1e49a724c73a
+  - Class: Reference
+    Type: HasRole
+    Target: g=6e2586c88560736b4c6a64ee8ab758a6
+  - Class: Reference
+    Type: HasRole
+    Target: g=401fd934501437b0d096b395ccc44909
+  - Class: Reference
+    Type: HasRole
+    Target: g=ad2d5fd8eec46d155f0d9e37e65d66fd
+  - Class: Reference
+    Type: HasRole
+    Target: g=a409deddc13b10e982687191c5a0c13f
+- Name: Lab
+  Type: GroupType

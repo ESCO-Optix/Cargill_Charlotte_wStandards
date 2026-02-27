@@ -1,0 +1,5 @@
+Name: Converters
+Type: ConvertersCategoryFolder
+Children:
+- File: Equations/Equations.yaml
+- File: Color/Color.yaml

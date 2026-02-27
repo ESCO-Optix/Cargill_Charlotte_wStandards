@@ -1,0 +1,8 @@
+Name: RA_ENIP
+Type: RAEtherNetIPDriver
+Children:
+- File: Cargill_Standard/Cargill_Standard.yaml
+- Name: AllowRuntimeTagImport
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true

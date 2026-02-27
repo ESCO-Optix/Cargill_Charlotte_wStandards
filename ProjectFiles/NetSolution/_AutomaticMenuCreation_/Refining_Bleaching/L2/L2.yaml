@@ -1,0 +1,18 @@
+Name: L2
+Type: FolderType
+Children:
+- Name: Degumming_L2
+  Id: g=59fe6f9fad0fd4c9da5c60fc03a3f26c
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Seperation_L2
+  Id: g=addd83f086c286f98e5bb3302b4e81f3
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Bleaching_L2
+  Id: g=b8cad2033b73c53ed4db40f595dd3572
+  Supertype: Screen
+  ReferenceType: HasComponent
+- File: Degumming_L3/Degumming_L3.yaml
+- File: Seperation_L3/Seperation_L3.yaml
+- File: Bleaching_L3/Bleaching_L3.yaml

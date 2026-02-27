@@ -1,0 +1,8 @@
+Name: Refining_Bleaching
+Type: FolderType
+Children:
+- Name: RB_L1
+  Id: g=d9e9eee0349b4c8e38e3de7a16cd98d9
+  Supertype: Screen
+  ReferenceType: HasComponent
+- File: L2/L2.yaml

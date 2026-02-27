@@ -1,0 +1,23 @@
+Name: Security
+Type: SecurityCategoryFolder
+Children:
+- File: Users/Users.yaml
+- File: Groups/Groups.yaml
+- File: Roles/Roles.yaml
+- Name: BaseUser
+  Id: g=70755f5b8cbc7026e63b8f4e1f55f8ca
+  Supertype: UserType
+  Children:
+  - Name: UserSettings
+    Type: BaseObjectType
+    Description: {"LocaleId":"en-US","Text":"Persited user settings"}
+    Children:
+    - Name: Cfg_TagVis
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Cfg_StyleSheet
+      Type: BaseDataVariableType
+      DataType: NodeId
+  - Name: Permissions
+    Type: BaseObjectType
+    Description: {"LocaleId":"en-US","Text":"Supplimentary permissions outside of a role"}

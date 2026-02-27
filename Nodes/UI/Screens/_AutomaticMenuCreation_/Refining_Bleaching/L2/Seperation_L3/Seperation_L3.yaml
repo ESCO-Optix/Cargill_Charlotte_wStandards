@@ -1,0 +1,12 @@
+Name: Seperation_L3
+Type: FolderType
+Children:
+- Name: PrimaryCentrifuge_L3
+  Id: g=a472e3092e136efdd75792810f21d5cb
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: WaterWash_L3
+  Id: g=9b9c6b67bbd20e8be6a610f6b5386f5a
+  Supertype: Screen
+  ReferenceType: HasComponent
+- File: CIP/CIP.yaml

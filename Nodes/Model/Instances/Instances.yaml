@@ -1,0 +1,7 @@
+Name: Instances
+Id: g=f676569adff57584fff69552bf100d69
+Type: FolderType
+Children:
+- File: Valves/Valves.yaml
+- File: Motors/Motors.yaml
+- File: AnalogInputs/AnalogInputs.yaml

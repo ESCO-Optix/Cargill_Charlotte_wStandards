@@ -1,0 +1,86 @@
+Name: Equations
+Type: FolderType
+Children:
+- Name: LimitScaler_Lo
+  Id: g=1df006a180718fceeb405b5b4a48a216
+  Supertype: ExpressionEvaluator
+  Description: {"LocaleId":"en-US","Text":"Scales based on range and limit"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Expression
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasParameter
+    Value: "({#Cfg_Lim}-{#Cfg_EGUMin})/({#Cfg_EGUMax}-{#Cfg_EGUMin})"
+  - Name: ns=7;SourceCfg_EGUMin
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+  - Name: ns=7;SourceCfg_Lim
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+  - Name: ns=7;SourceCfg_EGUMax
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+  - Name: Mode
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+    ModellingRule: Optional
+- Name: LimitScaler_Hi
+  Id: g=7b87ae05ab857dca326fb93d14b0e05d
+  Supertype: ExpressionEvaluator
+  ReferenceType: HasComponent
+  Children:
+  - Name: Expression
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "({#multiplier}*({#Cfg_EGUMax}-min(max({#Cfg_Lim},{#Cfg_EGUMin}),{#Cfg_EGUMax})))-1"
+  - Name: ns=7;Sourcemultiplier
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+  - Name: ns=7;SourceCfg_EGUMax
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+  - Name: ns=7;SourceCfg_Lim
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+  - Name: ns=7;SourceCfg_EGUMin
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath

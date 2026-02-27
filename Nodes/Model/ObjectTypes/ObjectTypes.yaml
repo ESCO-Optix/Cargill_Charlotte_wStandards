@@ -1,0 +1,128 @@
+Name: ObjectTypes
+Id: g=15fc2698bc19cb9f0439a82bb667a82f
+Type: FolderType
+Children:
+- Name: Cgl_Valve_PI
+  Id: g=ba6441fe4223818c3d994eb7cfb7c73d
+  Supertype: BaseObjectType
+  Description: {"LocaleId":"en-US","Text":"Cargill Valve Object with Device, Interlock, Permissive"}
+  Children:
+  - Name: Controller
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: Device
+    Type: NodePointer
+    DataType: NodeId
+    Description: {"LocaleId":"en-US","Text":"works with v4 valve"}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillDevice_Valve"
+    - Name: NodeClass
+      Type: PropertyType
+      DataType: NodePointerNodeClass
+      ModellingRule: Optional
+  - Name: Interlock
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Interlock"
+  - Name: Permissive
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Permissive"
+  - Name: Desc
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../Device/HMI_Desc"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: Version
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 4
+  - Name: Variable2
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Cgl_Motor_PI
+  Id: g=b3b4f6b94deb1e966baaad7e4adce18a
+  Supertype: BaseObjectType
+  Children:
+  - Name: Device
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillDevice_Motor"
+  - Name: Interlock
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Interlock"
+  - Name: Permissive
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Permissive"
+- Name: Cgl_AnalogInput
+  Id: g=5a2d77c3aa672df007592829f1980342
+  Supertype: BaseObjectType
+  Children:
+  - Name: Device
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillDevice_AnalogIn"
+  - Name: Doc_Path
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Model_Number
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: Cgl_IlockPerm
+  Id: g=1cd0e94d1f10ae1f8bbff3038cd19144
+  Supertype: BaseObjectType
+  Children:
+  - Name: Inp_Condition
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Set_Bypass
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Cfg_Sec
+    Type: BaseDataVariableType
+    DataType: RolePermissionType

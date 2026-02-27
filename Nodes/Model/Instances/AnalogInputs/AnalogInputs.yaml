@@ -1,0 +1,64 @@
+Name: AnalogInputs
+Type: FolderType
+Children:
+- Name: TT_000000_01
+  Type: Cgl_AnalogInput
+  Children:
+  - Name: Device
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/TT_000000_01"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillDevice_AnalogIn"
+  - Name: Doc_Path
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Model_Number
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: AT_999999_99
+  Id: g=8ccb979f5dc44e5dafa47f00205a79f1
+  Type: Cgl_AnalogInput
+  Children:
+  - Name: Device
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/AT_999999_99"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillDevice_AnalogIn"
+  - Name: Doc_Path
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Model_Number
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: FT_999999_01
+  Type: Cgl_AnalogInput
+  Children:
+  - Name: Device
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/FT_999999_01"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillDevice_AnalogIn"
+  - Name: Doc_Path
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Model_Number
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

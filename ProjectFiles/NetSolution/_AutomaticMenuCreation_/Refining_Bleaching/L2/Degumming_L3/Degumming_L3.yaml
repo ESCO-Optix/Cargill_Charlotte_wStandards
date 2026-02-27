@@ -1,0 +1,15 @@
+Name: Degumming_L3
+Type: FolderType
+Children:
+- Name: CrudeHeatingCooling_L3
+  Id: g=ff4993c8676511a198d9c9badb34c952
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: EnzymeReactors_L3
+  Id: g=13deb4302278e2e559917713c3559a30
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: DayTank_L3
+  Id: g=b7cb87b1f5d4b854118ec748d3f887cd
+  Supertype: Screen
+  ReferenceType: HasComponent

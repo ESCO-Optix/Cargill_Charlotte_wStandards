@@ -1,0 +1,26 @@
+Name: Equipment
+Type: FolderType
+Children:
+- File: Valve/Valve.yaml
+- File: Pump/Pump.yaml
+- File: Switch/Switch.yaml
+- File: AnalogInput/AnalogInput.yaml
+- Name: DevNote
+  Id: g=e5bf215d65c10f1101246ee5a614cdbf
+  Supertype: Label
+  ReferenceType: HasComponent
+  Children:
+  - Name: Text
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    ModellingRule: Optional
+    Value: {"LocaleId":"en-US","Text":"Label1"}
+  - Name: Visible
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+  - Name: TextColor
+    Type: BaseDataVariableType
+    DataType: Color
+    ModellingRule: Optional
+    Value: "#e811f8"

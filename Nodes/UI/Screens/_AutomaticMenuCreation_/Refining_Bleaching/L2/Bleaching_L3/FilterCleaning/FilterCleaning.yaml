@@ -1,0 +1,11 @@
+Name: FilterCleaning
+Type: FolderType
+Children:
+- Name: BleachFilter_A_Clean_L3
+  Id: g=95cd39e304532dda456de410a3aac6f3
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: BleachFilter_B_Clean_L3
+  Id: g=88353c9c2ad8c1ded6de806f8a3d6331
+  Supertype: Screen
+  ReferenceType: HasComponent

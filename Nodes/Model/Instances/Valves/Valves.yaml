@@ -1,0 +1,323 @@
+Name: Valves
+Type: FolderType
+Children:
+- Name: XV_999999_99
+  Id: g=06329fa890b5687f0bfcc610b5e420b4
+  Type: Cgl_Valve_PI
+  Children:
+  - Name: Controller
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: Device
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_99"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillDevice_Valve"
+  - Name: Interlock
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_99_Ilock"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Interlock"
+  - Name: Permissive
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_99_Perm"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Permissive"
+  - Name: Desc
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_99/HMI_Desc"
+  - Name: Version
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 4
+  - Name: Variable2
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: XV_000000_00
+  Id: g=26004da844c28b4cedde93e00458df26
+  Type: Cgl_Valve_PI
+  Children:
+  - Name: Controller
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: Device
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_000000_00"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillDevice_Valve"
+  - Name: Interlock
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_000000_00_ILock"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Interlock"
+  - Name: Permissive
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Permissive"
+  - Name: Desc
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../Device/HMI_Desc"
+  - Name: Version
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 4
+  - Name: Variable2
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: XV_888888_88
+  Type: Cgl_Valve_PI
+  Children:
+  - Name: Controller
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: Device
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_888888_88/Valve"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillDevice_Valve"
+  - Name: Interlock
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Interlock"
+  - Name: Permissive
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Permissive"
+  - Name: Desc
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../Device/HMI_Desc"
+  - Name: Version
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 4
+  - Name: Variable2
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: XV_999999_01
+  Id: g=de6f5615df844003a991eaaa13b111be
+  Type: Cgl_Valve_PI
+  Children:
+  - Name: Controller
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: Device
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_01_Valve"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillDevice_Valve"
+  - Name: Interlock
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_01_Ilock"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Interlock"
+  - Name: Permissive
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_01_Perm"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Permissive"
+  - Name: Desc
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../Device/HMI_Desc"
+  - Name: Version
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 4
+  - Name: Variable2
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: XV_999999_02
+  Id: g=11b297e10d4b4bc9b905960028f97e0c
+  Type: Cgl_Valve_PI
+  Children:
+  - Name: Controller
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: Device
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_02"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillDevice_Valve"
+  - Name: Interlock
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_02_Ilock"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Interlock"
+  - Name: Permissive
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_02_Perm"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Permissive"
+  - Name: Desc
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../Device/HMI_Desc"
+  - Name: Version
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 4
+  - Name: Variable2
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: XV_999999_03
+  Type: Cgl_Valve_PI
+  Children:
+  - Name: Controller
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: Device
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_03"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillDevice_Valve"
+  - Name: Interlock
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_03_Ilock"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Interlock"
+  - Name: Permissive
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_03_Perm"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Permissive"
+  - Name: Desc
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../Device/HMI_Desc"
+  - Name: Version
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 4
+  - Name: Variable2
+    Type: BaseDataVariableType
+    DataType: Int32

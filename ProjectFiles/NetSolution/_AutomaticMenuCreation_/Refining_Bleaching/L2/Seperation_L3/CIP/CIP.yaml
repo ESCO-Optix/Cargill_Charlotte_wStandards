@@ -1,0 +1,15 @@
+Name: CIP
+Type: FolderType
+Children:
+- Name: Primary_CIP_L3
+  Id: g=d67697457ecd16f3d3ed3d90f903e5d0
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: ChemicalAdd_CIP_L3
+  Id: g=09fa7866e78756f2baf35fb63f293aa1
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: WaterWash_CIP_L3
+  Id: g=d0bd51f4738cec624456f94f6aaf7063
+  Supertype: Screen
+  ReferenceType: HasComponent

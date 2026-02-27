@@ -1,0 +1,57 @@
+Name: FP_Switch_Components
+Type: FolderType
+Children:
+- Name: FP_Switch_Home
+  Id: g=4db494c8e335e9178b30aca09c51e26b
+  Supertype: Cgl_PanelBase
+  ReferenceType: HasComponent
+  Children:
+  - Name: Tag
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Cargill_DialogBox}/Ref_Tag@NodeId"
+  - Name: L1_3Background1
+    Type: L4Background
+- Name: FP_Switch_Maint
+  Id: g=8380526a01851e979c1987833f54145d
+  Supertype: Cgl_PanelBase
+  ReferenceType: HasComponent
+  Children:
+  - Name: Tag
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Cargill_DialogBox}/Ref_Tag@NodeId"
+  - Name: L1_3Background1
+    Type: L4Background
+- Name: FP_Switch_Alarms
+  Id: g=0dbab88dcdc1fd7af717d471766dffa5
+  Supertype: Cgl_PanelBase
+  ReferenceType: HasComponent
+  Children:
+  - Name: Tag
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{Cargill_DialogBox}/Ref_Tag@NodeId"
+  - Name: L1_3Background1
+    Type: L4Background

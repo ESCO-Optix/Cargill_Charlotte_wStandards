@@ -1,0 +1,93 @@
+Name: Motors
+Type: FolderType
+Children:
+- Name: P999999
+  Id: g=9b10506d70c6e888b8e0aaa484ffc7dc
+  Type: Cgl_Motor_PI
+  Children:
+  - Name: Device
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/P999999"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillDevice_Motor"
+  - Name: Interlock
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/P999999_Ilock"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Interlock"
+  - Name: Permissive
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/P999999_Perm"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Permissive"
+- Name: P000001
+  Type: Cgl_Motor_PI
+  Children:
+  - Name: Device
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/P000001"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillDevice_Motor"
+  - Name: Interlock
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/P000001_ILock"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Interlock"
+  - Name: Permissive
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Permissive"
+- Name: P989989
+  Type: Cgl_Motor_PI
+  Children:
+  - Name: Device
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/P989989"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillDevice_Motor"
+  - Name: Interlock
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/P989989_Ilock"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Interlock"
+  - Name: Permissive
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/P989989_Perm"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Permissive"

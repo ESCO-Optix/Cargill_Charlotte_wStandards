@@ -1,0 +1,24 @@
+Name: Bleaching_L3
+Type: FolderType
+Children:
+- Name: ClayAddition_L3
+  Id: g=86e5f4028d3f6ea486848cfd1d4f34a7
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: Bleacher_L3
+  Id: g=78c2b318a3c1ec76a2b729c35f2b4be1
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: BleachFilter_A_L3
+  Id: g=a3b8726beb4173020b900daf6e429237
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: BleachFilter_B_L3
+  Id: g=14bb2bbe34b2ac5d1ad7a9fe900c6e1f
+  Supertype: Screen
+  ReferenceType: HasComponent
+- Name: FilterDischarge_L3
+  Id: g=072a83e63696b6df84ceed29171e7d2c
+  Supertype: Screen
+  ReferenceType: HasComponent
+- File: FilterCleaning/FilterCleaning.yaml

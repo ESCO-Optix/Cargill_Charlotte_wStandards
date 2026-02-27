@@ -1,0 +1,5 @@
+Name: <AutomaticMenuCreation>
+Type: FolderType
+Children:
+- File: Refining_Bleaching/Refining_Bleaching.yaml
+- File: Deodorizing/Deodorizing.yaml
