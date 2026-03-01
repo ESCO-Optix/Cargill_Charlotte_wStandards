@@ -14,6 +14,7 @@ using FTOptix.Store;
 using FTOptix.ODBCStore;
 using FTOptix.AuditSigning;
 using FTOptix.DataLogger;
+using FTOptix.SerialPort;
 #endregion
 
 public class NodesCounterDialogLogic : BaseNetLogic

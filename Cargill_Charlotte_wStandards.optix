@@ -98,16 +98,24 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 4.0
+  25:
+   Uri: 'urn:FTOptix:SerialPort'
+   Module: FTOptix.SerialPort
+   Version: 1.0
+  26:
+   Uri: 'urn:FTOptix:SerialPort:Net'
+   Module: FTOptix.SerialPort.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 52426
-  Objects: 2646
-  ObjectTypes: 123
-  Variables: 49529
+  TotalNodeCount: 57525
+  Objects: 2786
+  ObjectTypes: 124
+  Variables: 54487
   VariableTypes: 56
   DataTypes: 56
   Methods: 16
-  References: 135
+  References: 131
   ReferenceTypes: 0
-  Files: 77
+  Files: 74
  Nodes:
  - File: Nodes/Cargill_Charlotte_wStandards.yaml

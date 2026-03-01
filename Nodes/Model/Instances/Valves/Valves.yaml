@@ -8,7 +8,7 @@ Children:
   - Name: Controller
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -16,7 +16,7 @@ Children:
   - Name: Device
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_99"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/XV_999999_99"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -25,7 +25,7 @@ Children:
   - Name: Interlock
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_99_Ilock"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/XV_999999_99_Ilock"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -34,7 +34,7 @@ Children:
   - Name: Permissive
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_99_Perm"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/XV_999999_99_Perm"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -48,7 +48,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_99/HMI_Desc"
+      Value: "../../../../../CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/XV_999999_99/HMI_Desc"
   - Name: Version
     Type: BaseDataVariableType
     DataType: Int32
@@ -70,7 +70,7 @@ Children:
   - Name: Device
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_000000_00"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/XV_000000_00"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -79,7 +79,7 @@ Children:
   - Name: Interlock
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_000000_00_ILock"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/XV_000000_00_ILock"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -122,7 +122,7 @@ Children:
   - Name: Device
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_888888_88/Valve"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/XV_888888_88/Valve"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -174,7 +174,7 @@ Children:
   - Name: Device
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_01_Valve"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/XV_999999_01_Valve"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -183,7 +183,7 @@ Children:
   - Name: Interlock
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_01_Ilock"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/XV_999999_01_Ilock"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -192,7 +192,7 @@ Children:
   - Name: Permissive
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_01_Perm"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/XV_999999_01_Perm"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -228,7 +228,7 @@ Children:
   - Name: Device
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_02"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/XV_999999_02"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -237,7 +237,7 @@ Children:
   - Name: Interlock
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_02_Ilock"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/XV_999999_02_Ilock"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -246,7 +246,7 @@ Children:
   - Name: Permissive
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_02_Perm"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/XV_999999_02_Perm"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -281,7 +281,7 @@ Children:
   - Name: Device
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_03"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/XV_999999_03"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -290,7 +290,7 @@ Children:
   - Name: Interlock
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_03_Ilock"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/XV_999999_03_Ilock"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -299,7 +299,7 @@ Children:
   - Name: Permissive
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/XV_999999_03_Perm"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/XV_999999_03_Perm"
     Children:
     - Name: Kind
       Type: PropertyType

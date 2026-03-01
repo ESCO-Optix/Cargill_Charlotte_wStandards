@@ -39,7 +39,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/AT_999999_99/Val@Value"
+        Value: "../../../../CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/AT_999999_99/Val@Value"
         Children:
         - Name: Mode
           Type: BaseVariableType
@@ -64,7 +64,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags/MyAnalogDevice_01/Val@Value"
+        Value: "../../../../CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/MyAnalogDevice_01/Val@Value"
         Children:
         - Name: Mode
           Type: BaseVariableType

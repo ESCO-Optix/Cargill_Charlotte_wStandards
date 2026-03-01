@@ -24,7 +24,7 @@ Children:
   - Name: PathToTags
     Type: BaseDataVariableType
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Tags/Controller Tags"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags"
   - Name: PathToTypes
     Type: BaseDataVariableType
     DataType: NodeId

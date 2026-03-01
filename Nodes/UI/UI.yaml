@@ -102,7 +102,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 75.0
+        Value: 100.0
       - Name: VerticalAlignment
         Type: BaseVariableType
         DataType: VerticalAlignment
@@ -936,7 +936,7 @@ Children:
       - Name: Panel
         Type: NodePointer
         DataType: NodeId
-        Value: "/Objects/Cargill_Charlotte_wStandards/UI/Screens/MainMenu"
+        Value: "/Objects/Cargill_Charlotte_wStandards/UI/Screens/L3 Screens/Sample1"
         Children:
         - Name: Kind
           Type: PropertyType

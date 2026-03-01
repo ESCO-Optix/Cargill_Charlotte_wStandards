@@ -1,5 +1,5 @@
 Name: CHRL_XFER
-Id: g=42619db2665a573e3101c3679b70e05b
+Id: g=b6056fda87dd5dcf5c8eafdd21c29067
 Type: RAEtherNetIPStation
 Children:
 - Name: Route
@@ -121,3 +121,18 @@ Children:
   Children:
   - File: DataTypes/DataTypes.yaml
   - File: VariableTypes/VariableTypes.yaml
+- Name: EnableExtendedProperties
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: UseAlarms
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: BlockReads
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: CommunicationStatus

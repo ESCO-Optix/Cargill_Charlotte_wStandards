@@ -702,7 +702,7 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/Cargill_Standard/Types/VariableTypes/CargillFunction_Parameter"
+      Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Types/VariableTypes/CargillFunction_Parameter"
   - Name: HorizontalLayout1
     Type: RowLayout
     Children:
