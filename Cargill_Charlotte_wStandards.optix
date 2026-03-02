@@ -106,16 +106,24 @@ Project:
    Uri: 'urn:FTOptix:SerialPort:Net'
    Module: FTOptix.SerialPort.Net
    Version: 1.0
+  27:
+   Uri: 'urn:FTOptix:Alarm'
+   Module: FTOptix.Alarm
+   Version: 6.1
+  28:
+   Uri: 'urn:FTOptix:Alarm:Net'
+   Module: FTOptix.Alarm.Net
+   Version: 1.2
  Statistics:
-  TotalNodeCount: 57525
-  Objects: 2786
-  ObjectTypes: 124
-  Variables: 54487
+  TotalNodeCount: 67655
+  Objects: 4933
+  ObjectTypes: 163
+  Variables: 62404
   VariableTypes: 56
   DataTypes: 56
-  Methods: 16
-  References: 131
+  Methods: 43
+  References: 165
   ReferenceTypes: 0
-  Files: 74
+  Files: 76
  Nodes:
  - File: Nodes/Cargill_Charlotte_wStandards.yaml

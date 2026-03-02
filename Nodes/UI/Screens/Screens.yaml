@@ -1918,8 +1918,6 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 Value: "#d4d4d4"
-            - Name: GaugeBar_Background
-              Type: Rectangle
             - Name: Cfg_Lim
               Type: Panel
               Children:
@@ -2904,6 +2902,8 @@ Children:
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "{Tag}/Device/Cfg_EGUMin"
+            - Name: GaugeBar_Background
+              Type: Rectangle
           - Name: RightPanel
             Type: ColumnLayout
           - Name: Width

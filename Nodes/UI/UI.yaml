@@ -1219,3 +1219,4 @@ Children:
       - Name: Severity
         Type: PropertyType
         DataType: UInt16
+- File: AlarmWidgets/AlarmWidgets.yaml
