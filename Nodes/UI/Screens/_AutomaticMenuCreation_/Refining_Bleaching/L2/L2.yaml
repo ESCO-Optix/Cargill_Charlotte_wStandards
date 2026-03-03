@@ -12,7 +12,7 @@ Children:
     - Name: Tag
       Type: Alias
       DataType: NodeId
-      Value: "/Objects/Cargill_Charlotte_wStandards/Model/Instances/Valves/XV_000000_00"
+      Value: {"IdType":2,"Id":"26004da844c28b4cedde93e00458df26","Namespace":24}
       Children:
       - Name: Kind
         Type: PropertyType

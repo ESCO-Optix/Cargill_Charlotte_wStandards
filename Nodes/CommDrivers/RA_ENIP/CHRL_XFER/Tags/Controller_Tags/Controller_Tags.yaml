@@ -12960,7 +12960,6 @@ Children:
     DataType: String
     Value: "EmailNS"
 - Name: XV_000000_00
-  Id: g=3cf30dec85dcdbdec42852df49a61a44
   Type: CargillDevice_Valve
   DataType: CargillDevice_Valve
   Children:
@@ -21934,7 +21933,6 @@ Children:
     DataType: String
     Value: "Test_Active"
 - Name: XV_000000_00_ILock
-  Id: g=89e467c2bc4597bc6831ad37e28cf6dc
   Type: CargillFunction_InterlockUDT
   DataType: CargillFunction_InterlockUDT
   Children:
@@ -24714,7 +24712,6 @@ Children:
     DataType: String
     Value: "TT_01_Y2"
 - Name: TT_000000_01
-  Id: g=8f575adbd082d9791e7a8289f9e6be77
   Type: CargillDevice_AnalogIn
   DataType: CargillDevice_AnalogIn
   Children:
@@ -33028,7 +33025,6 @@ Children:
     DataType: String
     Value: "TailDevice01_InterlockCondition"
 - Name: P000001
-  Id: g=b752d33bc41d1e9f78f59fc0484c1122
   Type: CargillDevice_Motor
   DataType: CargillDevice_Motor
   Children:
@@ -35983,7 +35979,6 @@ Children:
       DataType: String
       Value: "P000001.HMI_LockoutDate"
 - Name: P000001_ILock
-  Id: g=7639e7b38fb71927f630eb83ed853ecc
   Type: CargillFunction_InterlockUDT
   DataType: CargillFunction_InterlockUDT
   Children:
@@ -59714,7 +59709,6 @@ Children:
     DataType: String
     Value: "Valve_PermCond"
 - Name: XV_999999_99
-  Id: g=5f4b614b8376a4efdd1b06909f0b2ce8
   Type: CargillDevice_Valve
   DataType: CargillDevice_Valve
   Children:
@@ -62662,7 +62656,6 @@ Children:
         DataType: String
         Value: "XV_999999_99.@AlarmSet.HighestSeverityAlarmType"
 - Name: XV_999999_99_Ilock
-  Id: g=f195823ce39eb689854ca6add794ffac
   Type: CargillFunction_InterlockUDT
   DataType: CargillFunction_InterlockUDT
   Children:
@@ -62824,7 +62817,6 @@ Children:
       DataType: String
       Value: "XV_999999_99_Ilock.Cfg_ResetRequired"
 - Name: XV_999999_99_Perm
-  Id: g=8dc479876181c6d9a42b14d21269fcf5
   Type: CargillFunction_PermissiveUDT
   DataType: CargillFunction_PermissiveUDT
   Children:
@@ -62986,7 +62978,6 @@ Children:
       DataType: String
       Value: "XV_999999_99_Perm.Cfg_ResetRequired"
 - Name: AT_999999_99
-  Id: g=1f13790101b86b90960b136b66971a31
   Type: CargillDevice_AnalogIn
   DataType: CargillDevice_AnalogIn
   Children:
@@ -70153,7 +70144,6 @@ Children:
     DataType: Boolean
     Value: true
   - Name: Valve
-    Id: g=a15ae415aecf111e29404ff16c3d64e6
     Type: CargillDevice_Valve
     DataType: CargillDevice_Valve
     Children:
@@ -72050,7 +72040,6 @@ Children:
       DataType: String
       Value: "sim_XV_888888_88.Fault_Sol"
 - Name: XV_999999_01_Ilock
-  Id: g=52a4a618e093181cb1867b7387c5c98c
   Type: CargillFunction_InterlockUDT
   DataType: CargillFunction_InterlockUDT
   Children:
@@ -72212,7 +72201,6 @@ Children:
       DataType: String
       Value: "XV_999999_01_Ilock.Cfg_ResetRequired"
 - Name: XV_999999_01_Perm
-  Id: g=331c44fc0d4b881a1f4e75d21d259f5c
   Type: CargillFunction_PermissiveUDT
   DataType: CargillFunction_PermissiveUDT
   Children:
@@ -72374,7 +72362,6 @@ Children:
       DataType: String
       Value: "XV_999999_01_Perm.Cfg_ResetRequired"
 - Name: XV_999999_01_Valve
-  Id: g=3567fdb791b57f89d1721dd3bbb3dd4c
   Type: CargillDevice_Valve
   DataType: CargillDevice_Valve
   Children:
@@ -77507,7 +77494,6 @@ Children:
       DataType: String
       Value: "sim_XV_999999_99.Fault_Sol"
 - Name: XV_999999_02
-  Id: g=8e728434bfdd09f12c27e56fd9af0e6a
   Type: CargillDevice_Valve
   DataType: CargillDevice_Valve
   Children:
@@ -80455,7 +80441,6 @@ Children:
         DataType: String
         Value: "XV_999999_02.@AlarmSet.HighestSeverityAlarmType"
 - Name: XV_999999_02_Ilock
-  Id: g=5731c7b908a59725f5c5e3e507c59719
   Type: CargillFunction_InterlockUDT
   DataType: CargillFunction_InterlockUDT
   Children:
@@ -80734,7 +80719,6 @@ Children:
       DataType: String
       Value: "XV_999999_02_Ilock.Cfg_ResetRequired"
 - Name: XV_999999_02_Perm
-  Id: g=e12f099fc02cd1eaf1f7b210e8e22ae2
   Type: CargillFunction_PermissiveUDT
   DataType: CargillFunction_PermissiveUDT
   Children:
@@ -84519,7 +84503,6 @@ Children:
       DataType: String
       Value: "XV_999999_03_Perm.Cfg_ResetRequired"
 - Name: FT_999999_01
-  Id: g=8f39f29a256baf8adc0e96a0c9a7c514
   Type: CargillDevice_AnalogIn
   DataType: CargillDevice_AnalogIn
   Children:
@@ -89757,7 +89740,6 @@ Children:
         DataType: String
         Value: "FT_999999_01.@AlarmSet.HighestSeverityAlarmType"
 - Name: P989989
-  Id: g=c17e1808c385534d90b6c6ead3949a49
   Type: CargillDevice_Motor
   DataType: CargillDevice_Motor
   Children:
@@ -94755,7 +94737,6 @@ Children:
         DataType: String
         Value: "P989989.HMI_LockoutDate.@Description"
 - Name: P989989_Ilock
-  Id: g=ba9a7da8725397f0ad3d19200149fb7e
   Type: CargillFunction_InterlockUDT
   DataType: CargillFunction_InterlockUDT
   Children:
@@ -95034,7 +95015,6 @@ Children:
       DataType: String
       Value: "P989989_Ilock.Cfg_ResetRequired"
 - Name: P989989_Perm
-  Id: g=01c79d921f2541424c424f47d5b50590
   Type: CargillFunction_PermissiveUDT
   DataType: CargillFunction_PermissiveUDT
   Children:
@@ -116705,6 +116685,5452 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "LT683.@AlarmSet.HighestSeverityAlarmType"
+- Name: P613
+  Id: g=1a6b37b9da801403b4a25b9ad1c37552
+  Type: CargillDevice_Motor
+  DataType: CargillDevice_Motor
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "P613"
+  - Name: BlockRead
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Description
+    Type: RAEtherNetIPMetaTag
+    DataType: String
+    Value: "Pump 613"
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.@Description"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.EnableOut"
+  - Name: Inp_ControlMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Inp_ControlMode"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Program/Operator\r\nControl\r\n0 = Program\r\n1 = Operator"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Inp_ControlMode.@Description"
+  - Name: Inp_Ack
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Inp_Ack"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Alarm(s) Acknowledge"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Inp_Ack.@Description"
+  - Name: Inp_Aux
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Inp_Aux"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Auxillary Contact"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Inp_Aux.@Description"
+  - Name: Inp_PStop
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Inp_PStop"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "P-Stop\r\nInput"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Inp_PStop.@Description"
+  - Name: Inp_IOFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Inp_IOFault"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "PLC Hardware Fault\r\nInput (Comes from PLC card Failure, IO point Failure, or Loss of Communication)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Inp_IOFault.@Description"
+  - Name: Inp_MCCDisconnect
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Inp_MCCDisconnect"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "MCC Disconnect\r\nInput"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Inp_MCCDisconnect.@Description"
+  - Name: Inp_FieldDisconnect
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Inp_FieldDisconnect"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Field Disconnect\r\nInput"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Inp_FieldDisconnect.@Description"
+  - Name: Inp_Overload
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Inp_Overload"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Overload\r\nInput"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Inp_Overload.@Description"
+  - Name: Inp_DeviceFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Inp_DeviceFault"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Device Fault\r\nInput\r\n(Fault Comes from VFD, SMC or Smart Starter)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Inp_DeviceFault.@Description"
+  - Name: Inp_Thermal
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Inp_Thermal"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Thermal\r\nInput"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Inp_Thermal.@Description"
+  - Name: Inp_StartPB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Inp_StartPB"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Field Start\r\nPush Button\r\n(1 = Start)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Inp_StartPB.@Description"
+  - Name: Inp_StopPB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Inp_StopPB"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Field Stop\r\nPush Button\r\n(0 = Stop)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Inp_StopPB.@Description"
+  - Name: Inp_Interlocked
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Inp_Interlocked"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "1 = Interlocked"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Inp_Interlocked.@Description"
+  - Name: Inp_MotorSpeedAct
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Inp_MotorSpeedAct"
+  - Name: Inp_LockStartReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Inp_LockStartReq"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "LockStart Request from HMI"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Inp_LockStartReq.@Description"
+  - Name: Inp_Hold
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Inp_Hold"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Hold Request"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Inp_Hold.@Description"
+  - Name: Cfg_HasMCCDisconnect
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_HasMCCDisconnect"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "MCC Disconnect Present"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_HasMCCDisconnect.@Description"
+  - Name: Cfg_HasFieldDisconnect
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_HasFieldDisconnect"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Field Disconnect Present"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_HasFieldDisconnect.@Description"
+  - Name: Cfg_FieldDisconnectInSeries
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_FieldDisconnectInSeries"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Field Disconnect Wired in Series with Stop PB Circuit"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_FieldDisconnectInSeries.@Description"
+  - Name: Cfg_HasOverload
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_HasOverload"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Overload Contact Present"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_HasOverload.@Description"
+  - Name: Cfg_HasThermal
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_HasThermal"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Thermal Contact Present"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_HasThermal.@Description"
+  - Name: Cfg_ThermalInSeries
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_ThermalInSeries"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Thermal Contact Wired in Series with the motor coil circuit"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_ThermalInSeries.@Description"
+  - Name: Cfg_HasCurrentFdbk
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_HasCurrentFdbk"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Current Transmitter Present (Instrument or Motor Starting Device w/Current Sensing)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_HasCurrentFdbk.@Description"
+  - Name: Cfg_ControlType
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_ControlType"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Motor Control Type\r\n10 = HW Contact\r\n11 = HW Soft Start\r\n12 = HW VFD\r\n20 = E1Plus\r\n21 = E3Plus\r\n22 = E300\r\n30 = SMC Soft Start\r\n70 = PF70\r\n520 = PF520\r\n700 = PF700 VC\r\n750 = PF750"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_ControlType.@Description"
+  - Name: Cfg_FailPLCHwPri
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_FailPLCHwPri"
+  - Name: Cfg_FailHWDlyT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_FailHWDlyT"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "PLC Hardware Fail Condition Delay Time to Alarm (sec)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_FailHWDlyT.@Description"
+  - Name: Cfg_FailStartPri
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_FailStartPri"
+  - Name: Cfg_FailStartDlyT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_FailStartDlyT"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Fail to Start Delay Time (sec)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_FailStartDlyT.@Description"
+  - Name: Cfg_FailStopPri
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_FailStopPri"
+  - Name: Cfg_FailStopDlyT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_FailStopDlyT"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Fail to Stop Delay Time (sec)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_FailStopDlyT.@Description"
+  - Name: Cfg_FailFeedbackPri
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_FailFeedbackPri"
+  - Name: Cfg_FailFeedbackDlyT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_FailFeedbackDlyT"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Fail Feedback Delay Time (sec)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_FailFeedbackDlyT.@Description"
+  - Name: Cfg_FailDisconnectPri
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_FailDisconnectPri"
+  - Name: Cfg_FailOverloadPri
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_FailOverloadPri"
+  - Name: Cfg_FailDevicePri
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_FailDevicePri"
+  - Name: Cfg_FailThermalPri
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_FailThermalPri"
+  - Name: Cfg_PFLAPri
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_PFLAPri"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "PLFA Alarm Priority"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_PFLAPri.@Description"
+  - Name: Cfg_RunningDlyT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_RunningDlyT"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Time to Delay Run Status (sec)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_RunningDlyT.@Description"
+  - Name: Cfg_RestartDlyT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_RestartDlyT"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Time Before Device can be Restarted when Device Direction Changes (sec)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_RestartDlyT.@Description"
+  - Name: Cfg_LockStartTestDuration
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_LockStartTestDuration"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "LockStart Test Duration (sec) Time in Addition to FailStartDelay"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_LockStartTestDuration.@Description"
+  - Name: Cfg_Data
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_Data"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Bit 0 = Not Used\r\nBit 1 =Local Disconnect Present\r\nBit 2 = Field Disconnect Present\r\nBit 3 = Field Disconnect In Series with Field Stop\r\nBit 4 = Overload Present\r\nBit 5 = Thermal Present\r\nBit 6 = Thermal in Series with Motor Coil\r\nBIT 7 = Current Transmitter Present\r\nBIT 8 = Has Speed feedback\r\nBits 16 - 31 Motor Type"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_Data.@Description"
+  - Name: Cfg_RequireAux
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_RequireAux"
+  - Name: Cfg_Fwd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Cfg_Fwd"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Direction Bit"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Cfg_Fwd.@Description"
+  - Name: Sts_Val
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Sts_Val"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Motor Status"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Sts_Val.@Description"
+  - Name: Sts_SimEnabled
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Sts_SimEnabled"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Simulation Mode Enabled"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Sts_SimEnabled.@Description"
+  - Name: Sts_Disconnect
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Sts_Disconnect"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Disconnects Status\r\n(1 = Disconnects Energized)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Sts_Disconnect.@Description"
+  - Name: Sts_RestartAllowed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Sts_RestartAllowed"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Restart Allowed After Stopping Motor"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Sts_RestartAllowed.@Description"
+  - Name: Sts_Aux
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Sts_Aux"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Motor Running Status"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Sts_Aux.@Description"
+  - Name: Sts_Running
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Sts_Running"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Delayed Motor\r\nRunning Status\r\n(1 = Running and Delay Complete)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Sts_Running.@Description"
+  - Name: Sts_LockStartRun
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Sts_LockStartRun"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "LockStart"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Sts_LockStartRun.@Description"
+  - Name: Sts_LockStartSuccess
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Sts_LockStartSuccess"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "LockStart Successful"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Sts_LockStartSuccess.@Description"
+  - Name: Sts_PStopTripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Sts_PStopTripped"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "P-Stop Tripped"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Sts_PStopTripped.@Description"
+  - Name: Alm_FailStart
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Alm_FailStart"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Start Failed"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Alm_FailStart.@Description"
+  - Name: Alm_FailStop
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Alm_FailStop"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Stop Failed"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Alm_FailStop.@Description"
+  - Name: Alm_FailFeedback
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Alm_FailFeedback"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Feedback Failed"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Alm_FailFeedback.@Description"
+  - Name: Alm_FailHW
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Alm_FailHW"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "PLC Hardware Failed"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Alm_FailHW.@Description"
+  - Name: Alm_FailDisconnect
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Alm_FailDisconnect"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Disconnect Failed"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Alm_FailDisconnect.@Description"
+  - Name: Alm_FailOverload
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Alm_FailOverload"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Failed Overload"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Alm_FailOverload.@Description"
+  - Name: Alm_FailDevice
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Alm_FailDevice"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Starting Device Faulted"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Alm_FailDevice.@Description"
+  - Name: Alm_FailThermal
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Alm_FailThermal"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Device Start Thermal Failed"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Alm_FailThermal.@Description"
+  - Name: OCmd_Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.OCmd_Start"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Start Operator\r\n(For HMI Only)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.OCmd_Start.@Description"
+  - Name: OCmd_Stop
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.OCmd_Stop"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Stop Operator\r\n(For HMI Only)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.OCmd_Stop.@Description"
+  - Name: PCmd_Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.PCmd_Start"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Start Program\r\n(For PLC Only)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.PCmd_Start.@Description"
+  - Name: PCmd_Stop
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.PCmd_Stop"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Stop Program\r\n(For PLC Only)"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.PCmd_Stop.@Description"
+  - Name: Sts_AlarmActive
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Sts_AlarmActive"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Starter Device\r\nAlarm(s) Active"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Sts_AlarmActive.@Description"
+  - Name: Sts_AlarmAcked
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Sts_AlarmAcked"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Starter Device Alarm(s)\r\nAcknowledged"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Sts_AlarmAcked.@Description"
+  - Name: Sts_HasDisconnects
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Sts_HasDisconnects"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Disconnects Present"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Sts_HasDisconnects.@Description"
+  - Name: Sts_Held
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Sts_Held"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "in Hold State"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Sts_Held.@Description"
+  - Name: Sts_FirstOut
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Sts_FirstOut"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Motor Stop FirstOut"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Sts_FirstOut.@Description"
+  - Name: Val_StopResults
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Val_StopResults"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Motor Stop Results for Motor First Out"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Val_StopResults.@Description"
+  - Name: Val_TimeToRestart
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Val_TimeToRestart"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Time Remaining Before Restart Allowed"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Val_TimeToRestart.@Description"
+  - Name: Val_CurrPriority
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Val_CurrPriority"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Current highest alarm priority of all alarms"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Val_CurrPriority.@Description"
+  - Name: Out_Run
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Out_Run"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Command to Energize Motor\r\nOutput"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Out_Run.@Description"
+  - Name: Set_SimFailAux
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Set_SimFailAux"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Aux will not be made in sim mode"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Set_SimFailAux.@Description"
+  - Name: RunningDelayTimer
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.RunningDelayTimer"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Run Status Delay Timer"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.RunningDelayTimer.@Description"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.RunningDelayTimer.PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.RunningDelayTimer.ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.RunningDelayTimer.EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.RunningDelayTimer.TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.RunningDelayTimer.DN"
+  - Name: FieldDisconnectDelayTimer
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.FieldDisconnectDelayTimer"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Field Disconncet Delay Timer"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FieldDisconnectDelayTimer.@Description"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FieldDisconnectDelayTimer.PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FieldDisconnectDelayTimer.ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FieldDisconnectDelayTimer.EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FieldDisconnectDelayTimer.TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FieldDisconnectDelayTimer.DN"
+  - Name: Wrk_CmdActive
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Wrk_CmdActive"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Command to Start - Motor is Active"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Wrk_CmdActive.@Description"
+  - Name: RestartDelayTimer
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.RestartDelayTimer"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Timer Used to Delay Restarting Device When Device Direction Changes"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.RestartDelayTimer.@Description"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.RestartDelayTimer.PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.RestartDelayTimer.ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.RestartDelayTimer.EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.RestartDelayTimer.TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.RestartDelayTimer.DN"
+  - Name: LockStartTestTimer
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.LockStartTestTimer"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "LockStart Test Timer"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.LockStartTestTimer.@Description"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.LockStartTestTimer.PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.LockStartTestTimer.ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.LockStartTestTimer.EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.LockStartTestTimer.TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.LockStartTestTimer.DN"
+  - Name: MtrConfigPLC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.MtrConfigPLC"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "\r\nConfiguration Word for PLC Use"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.MtrConfigPLC.@Description"
+  - Name: MtrConfigLast
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.MtrConfigLast"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "\r\nConfiguration Word from Last Scan used for Comparison"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.MtrConfigLast.@Description"
+  - Name: Wrk_Started
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Wrk_Started"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Motor Started"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Wrk_Started.@Description"
+  - Name: Wrk_Stopped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Wrk_Stopped"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Motor Stopped"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Wrk_Stopped.@Description"
+  - Name: Wrk_LockStartTestTime
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Wrk_LockStartTestTime"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "LockStart Test Time"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Wrk_LockStartTestTime.@Description"
+  - Name: Wrk_Run
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Wrk_Run"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Command to Energize Motor"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Wrk_Run.@Description"
+  - Name: Wrk_DirStop
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Wrk_DirStop"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Stops The Motor To Switch Directions"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Wrk_DirStop.@Description"
+  - Name: Wrk_PriorityUnacked
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Wrk_PriorityUnacked"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Current Unacknowledged Alarm Priority\r\n0 = None\r\n1 = Low\r\n2 = Medium\r\n3 = High"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Wrk_PriorityUnacked.@Description"
+  - Name: Wrk_PriorityAcked
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Wrk_PriorityAcked"
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Current Acknowledged Alarm Priority 0 = None 1 = Low 2 = Medium 3 = High"
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.Wrk_PriorityAcked.@Description"
+  - Name: SimAuxDelayTimer
+    Type: TIMER
+    DataType: TIMER
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.SimAuxDelayTimer"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Turns on after 1/2 of Cfg_FailStartDlyT "
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.SimAuxDelayTimer.@Description"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.SimAuxDelayTimer.PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.SimAuxDelayTimer.ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.SimAuxDelayTimer.EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.SimAuxDelayTimer.TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.SimAuxDelayTimer.DN"
+  - Name: Wrk_SimAux
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.Wrk_SimAux"
+  - Name: FailStart
+    Type: CargillFunction_Alarm
+    DataType: CargillFunction_Alarm
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.FailStart"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Provides standard alarming capabilities for conditions in the PLC.  "
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.@Description"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.EnableIn"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Input - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.EnableIn.@Description"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.EnableOut"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Output - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.EnableOut.@Description"
+    - Name: Inp_Condition
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.Inp_Condition"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Condition Exists"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Inp_Condition.@Description"
+    - Name: Inp_Mute
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.Inp_Mute"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Mute"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Inp_Mute.@Description"
+    - Name: Inp_Suppress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.Inp_Suppress"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Suppress"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Inp_Suppress.@Description"
+    - Name: Inp_FailActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.Inp_FailActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Calling AOI Fail Active (bypasses OnDelay)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Inp_FailActive.@Description"
+    - Name: Cfg_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.Cfg_Enable"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Cfg_Enable.@Description"
+    - Name: Cfg_OnDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.Cfg_OnDelayT"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "On Time Delay in Seconds"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Cfg_OnDelayT.@Description"
+    - Name: Cfg_OffDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.Cfg_OffDelayT"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Off Time Delay in Seconds"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Cfg_OffDelayT.@Description"
+    - Name: Cfg_Priority
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.Cfg_Priority"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Priority\r\n1 = Low\r\n2 = Medium\r\n3 = High"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Cfg_Priority.@Description"
+    - Name: Alm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.Alm"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Is Active"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Alm.@Description"
+    - Name: Sts_Acked
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.Sts_Acked"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm is Acknowledged"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Sts_Acked.@Description"
+    - Name: Sts_HMIActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.Sts_HMIActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm is Active on HMI"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Sts_HMIActive.@Description"
+    - Name: Sts_ConditionActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.Sts_ConditionActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Condition (Filtered) is Active"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Sts_ConditionActive.@Description"
+    - Name: Wrk_OffDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.Wrk_OffDelay"
+      - Name: BlockRead
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Timer (Reset)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Wrk_OffDelay.@Description"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Wrk_OffDelay.PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Wrk_OffDelay.ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Wrk_OffDelay.EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Wrk_OffDelay.TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Wrk_OffDelay.DN"
+    - Name: Wrk_OnDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.Wrk_OnDelay"
+      - Name: BlockRead
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Timer (Delay)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Wrk_OnDelay.@Description"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Wrk_OnDelay.PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Wrk_OnDelay.ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Wrk_OnDelay.EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Wrk_OnDelay.TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Wrk_OnDelay.DN"
+    - Name: Wrk_Ons
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStart.Wrk_Ons"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "New Alarm OneShot"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStart.Wrk_Ons.@Description"
+  - Name: FailStop
+    Type: CargillFunction_Alarm
+    DataType: CargillFunction_Alarm
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.FailStop"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Provides standard alarming capabilities for conditions in the PLC.  "
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.@Description"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.EnableIn"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Input - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.EnableIn.@Description"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.EnableOut"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Output - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.EnableOut.@Description"
+    - Name: Inp_Condition
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.Inp_Condition"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Condition Exists"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Inp_Condition.@Description"
+    - Name: Inp_Mute
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.Inp_Mute"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Mute"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Inp_Mute.@Description"
+    - Name: Inp_Suppress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.Inp_Suppress"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Suppress"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Inp_Suppress.@Description"
+    - Name: Inp_FailActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.Inp_FailActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Calling AOI Fail Active (bypasses OnDelay)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Inp_FailActive.@Description"
+    - Name: Cfg_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.Cfg_Enable"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Cfg_Enable.@Description"
+    - Name: Cfg_OnDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.Cfg_OnDelayT"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "On Time Delay in Seconds"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Cfg_OnDelayT.@Description"
+    - Name: Cfg_OffDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.Cfg_OffDelayT"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Off Time Delay in Seconds"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Cfg_OffDelayT.@Description"
+    - Name: Cfg_Priority
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.Cfg_Priority"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Priority\r\n1 = Low\r\n2 = Medium\r\n3 = High"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Cfg_Priority.@Description"
+    - Name: Alm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.Alm"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Is Active"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Alm.@Description"
+    - Name: Sts_Acked
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.Sts_Acked"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm is Acknowledged"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Sts_Acked.@Description"
+    - Name: Sts_HMIActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.Sts_HMIActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm is Active on HMI"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Sts_HMIActive.@Description"
+    - Name: Sts_ConditionActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.Sts_ConditionActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Condition (Filtered) is Active"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Sts_ConditionActive.@Description"
+    - Name: Wrk_OffDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.Wrk_OffDelay"
+      - Name: BlockRead
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Timer (Reset)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Wrk_OffDelay.@Description"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Wrk_OffDelay.PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Wrk_OffDelay.ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Wrk_OffDelay.EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Wrk_OffDelay.TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Wrk_OffDelay.DN"
+    - Name: Wrk_OnDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.Wrk_OnDelay"
+      - Name: BlockRead
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Timer (Delay)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Wrk_OnDelay.@Description"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Wrk_OnDelay.PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Wrk_OnDelay.ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Wrk_OnDelay.EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Wrk_OnDelay.TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Wrk_OnDelay.DN"
+    - Name: Wrk_Ons
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailStop.Wrk_Ons"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "New Alarm OneShot"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailStop.Wrk_Ons.@Description"
+  - Name: FailFeedback
+    Type: CargillFunction_Alarm
+    DataType: CargillFunction_Alarm
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.FailFeedback"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Provides standard alarming capabilities for conditions in the PLC.  "
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.@Description"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.EnableIn"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Input - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.EnableIn.@Description"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.EnableOut"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Output - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.EnableOut.@Description"
+    - Name: Inp_Condition
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.Inp_Condition"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Condition Exists"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Inp_Condition.@Description"
+    - Name: Inp_Mute
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.Inp_Mute"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Mute"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Inp_Mute.@Description"
+    - Name: Inp_Suppress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.Inp_Suppress"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Suppress"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Inp_Suppress.@Description"
+    - Name: Inp_FailActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.Inp_FailActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Calling AOI Fail Active (bypasses OnDelay)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Inp_FailActive.@Description"
+    - Name: Cfg_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.Cfg_Enable"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Cfg_Enable.@Description"
+    - Name: Cfg_OnDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.Cfg_OnDelayT"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "On Time Delay in Seconds"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Cfg_OnDelayT.@Description"
+    - Name: Cfg_OffDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.Cfg_OffDelayT"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Off Time Delay in Seconds"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Cfg_OffDelayT.@Description"
+    - Name: Cfg_Priority
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.Cfg_Priority"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Priority\r\n1 = Low\r\n2 = Medium\r\n3 = High"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Cfg_Priority.@Description"
+    - Name: Alm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.Alm"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Is Active"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Alm.@Description"
+    - Name: Sts_Acked
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.Sts_Acked"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm is Acknowledged"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Sts_Acked.@Description"
+    - Name: Sts_HMIActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.Sts_HMIActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm is Active on HMI"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Sts_HMIActive.@Description"
+    - Name: Sts_ConditionActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.Sts_ConditionActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Condition (Filtered) is Active"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Sts_ConditionActive.@Description"
+    - Name: Wrk_OffDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.Wrk_OffDelay"
+      - Name: BlockRead
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Timer (Reset)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Wrk_OffDelay.@Description"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Wrk_OffDelay.PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Wrk_OffDelay.ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Wrk_OffDelay.EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Wrk_OffDelay.TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Wrk_OffDelay.DN"
+    - Name: Wrk_OnDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.Wrk_OnDelay"
+      - Name: BlockRead
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Timer (Delay)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Wrk_OnDelay.@Description"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Wrk_OnDelay.PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Wrk_OnDelay.ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Wrk_OnDelay.EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Wrk_OnDelay.TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Wrk_OnDelay.DN"
+    - Name: Wrk_Ons
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailFeedback.Wrk_Ons"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "New Alarm OneShot"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailFeedback.Wrk_Ons.@Description"
+  - Name: FailPLCHw
+    Type: CargillFunction_Alarm
+    DataType: CargillFunction_Alarm
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.FailPLCHw"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Provides standard alarming capabilities for conditions in the PLC.  "
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.@Description"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.EnableIn"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Input - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.EnableIn.@Description"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.EnableOut"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Output - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.EnableOut.@Description"
+    - Name: Inp_Condition
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.Inp_Condition"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Condition Exists"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Inp_Condition.@Description"
+    - Name: Inp_Mute
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.Inp_Mute"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Mute"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Inp_Mute.@Description"
+    - Name: Inp_Suppress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.Inp_Suppress"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Suppress"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Inp_Suppress.@Description"
+    - Name: Inp_FailActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.Inp_FailActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Calling AOI Fail Active (bypasses OnDelay)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Inp_FailActive.@Description"
+    - Name: Cfg_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.Cfg_Enable"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Cfg_Enable.@Description"
+    - Name: Cfg_OnDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.Cfg_OnDelayT"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "On Time Delay in Seconds"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Cfg_OnDelayT.@Description"
+    - Name: Cfg_OffDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.Cfg_OffDelayT"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Off Time Delay in Seconds"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Cfg_OffDelayT.@Description"
+    - Name: Cfg_Priority
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.Cfg_Priority"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Priority\r\n1 = Low\r\n2 = Medium\r\n3 = High"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Cfg_Priority.@Description"
+    - Name: Alm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.Alm"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Is Active"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Alm.@Description"
+    - Name: Sts_Acked
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.Sts_Acked"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm is Acknowledged"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Sts_Acked.@Description"
+    - Name: Sts_HMIActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.Sts_HMIActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm is Active on HMI"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Sts_HMIActive.@Description"
+    - Name: Sts_ConditionActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.Sts_ConditionActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Condition (Filtered) is Active"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Sts_ConditionActive.@Description"
+    - Name: Wrk_OffDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.Wrk_OffDelay"
+      - Name: BlockRead
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Timer (Reset)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Wrk_OffDelay.@Description"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Wrk_OffDelay.PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Wrk_OffDelay.ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Wrk_OffDelay.EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Wrk_OffDelay.TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Wrk_OffDelay.DN"
+    - Name: Wrk_OnDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.Wrk_OnDelay"
+      - Name: BlockRead
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Timer (Delay)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Wrk_OnDelay.@Description"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Wrk_OnDelay.PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Wrk_OnDelay.ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Wrk_OnDelay.EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Wrk_OnDelay.TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Wrk_OnDelay.DN"
+    - Name: Wrk_Ons
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailPLCHw.Wrk_Ons"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "New Alarm OneShot"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailPLCHw.Wrk_Ons.@Description"
+  - Name: FailDisconnect
+    Type: CargillFunction_Alarm
+    DataType: CargillFunction_Alarm
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.FailDisconnect"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Provides standard alarming capabilities for conditions in the PLC.  "
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.@Description"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.EnableIn"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Input - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.EnableIn.@Description"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.EnableOut"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Output - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.EnableOut.@Description"
+    - Name: Inp_Condition
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.Inp_Condition"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Condition Exists"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Inp_Condition.@Description"
+    - Name: Inp_Mute
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.Inp_Mute"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Mute"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Inp_Mute.@Description"
+    - Name: Inp_Suppress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.Inp_Suppress"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Suppress"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Inp_Suppress.@Description"
+    - Name: Inp_FailActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.Inp_FailActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Calling AOI Fail Active (bypasses OnDelay)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Inp_FailActive.@Description"
+    - Name: Cfg_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.Cfg_Enable"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Cfg_Enable.@Description"
+    - Name: Cfg_OnDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.Cfg_OnDelayT"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "On Time Delay in Seconds"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Cfg_OnDelayT.@Description"
+    - Name: Cfg_OffDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.Cfg_OffDelayT"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Off Time Delay in Seconds"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Cfg_OffDelayT.@Description"
+    - Name: Cfg_Priority
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.Cfg_Priority"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Priority\r\n1 = Low\r\n2 = Medium\r\n3 = High"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Cfg_Priority.@Description"
+    - Name: Alm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.Alm"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Is Active"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Alm.@Description"
+    - Name: Sts_Acked
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.Sts_Acked"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm is Acknowledged"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Sts_Acked.@Description"
+    - Name: Sts_HMIActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.Sts_HMIActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm is Active on HMI"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Sts_HMIActive.@Description"
+    - Name: Sts_ConditionActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.Sts_ConditionActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Condition (Filtered) is Active"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Sts_ConditionActive.@Description"
+    - Name: Wrk_OffDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.Wrk_OffDelay"
+      - Name: BlockRead
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Timer (Reset)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Wrk_OffDelay.@Description"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Wrk_OffDelay.PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Wrk_OffDelay.ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Wrk_OffDelay.EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Wrk_OffDelay.TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Wrk_OffDelay.DN"
+    - Name: Wrk_OnDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.Wrk_OnDelay"
+      - Name: BlockRead
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Timer (Delay)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Wrk_OnDelay.@Description"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Wrk_OnDelay.PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Wrk_OnDelay.ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Wrk_OnDelay.EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Wrk_OnDelay.TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Wrk_OnDelay.DN"
+    - Name: Wrk_Ons
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDisconnect.Wrk_Ons"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "New Alarm OneShot"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDisconnect.Wrk_Ons.@Description"
+  - Name: FailOverload
+    Type: CargillFunction_Alarm
+    DataType: CargillFunction_Alarm
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.FailOverload"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Provides standard alarming capabilities for conditions in the PLC.  "
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.@Description"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.EnableIn"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Input - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.EnableIn.@Description"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.EnableOut"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Output - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.EnableOut.@Description"
+    - Name: Inp_Condition
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.Inp_Condition"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Condition Exists"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Inp_Condition.@Description"
+    - Name: Inp_Mute
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.Inp_Mute"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Mute"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Inp_Mute.@Description"
+    - Name: Inp_Suppress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.Inp_Suppress"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Suppress"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Inp_Suppress.@Description"
+    - Name: Inp_FailActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.Inp_FailActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Calling AOI Fail Active (bypasses OnDelay)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Inp_FailActive.@Description"
+    - Name: Cfg_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.Cfg_Enable"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Cfg_Enable.@Description"
+    - Name: Cfg_OnDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.Cfg_OnDelayT"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "On Time Delay in Seconds"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Cfg_OnDelayT.@Description"
+    - Name: Cfg_OffDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.Cfg_OffDelayT"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Off Time Delay in Seconds"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Cfg_OffDelayT.@Description"
+    - Name: Cfg_Priority
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.Cfg_Priority"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Priority\r\n1 = Low\r\n2 = Medium\r\n3 = High"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Cfg_Priority.@Description"
+    - Name: Alm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.Alm"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Is Active"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Alm.@Description"
+    - Name: Sts_Acked
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.Sts_Acked"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm is Acknowledged"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Sts_Acked.@Description"
+    - Name: Sts_HMIActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.Sts_HMIActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm is Active on HMI"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Sts_HMIActive.@Description"
+    - Name: Sts_ConditionActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.Sts_ConditionActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Condition (Filtered) is Active"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Sts_ConditionActive.@Description"
+    - Name: Wrk_OffDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.Wrk_OffDelay"
+      - Name: BlockRead
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Timer (Reset)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Wrk_OffDelay.@Description"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Wrk_OffDelay.PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Wrk_OffDelay.ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Wrk_OffDelay.EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Wrk_OffDelay.TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Wrk_OffDelay.DN"
+    - Name: Wrk_OnDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.Wrk_OnDelay"
+      - Name: BlockRead
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Timer (Delay)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Wrk_OnDelay.@Description"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Wrk_OnDelay.PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Wrk_OnDelay.ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Wrk_OnDelay.EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Wrk_OnDelay.TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Wrk_OnDelay.DN"
+    - Name: Wrk_Ons
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailOverload.Wrk_Ons"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "New Alarm OneShot"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailOverload.Wrk_Ons.@Description"
+  - Name: FailDevice
+    Type: CargillFunction_Alarm
+    DataType: CargillFunction_Alarm
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.FailDevice"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Provides standard alarming capabilities for conditions in the PLC.  "
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.@Description"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.EnableIn"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Input - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.EnableIn.@Description"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.EnableOut"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Output - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.EnableOut.@Description"
+    - Name: Inp_Condition
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.Inp_Condition"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Condition Exists"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Inp_Condition.@Description"
+    - Name: Inp_Mute
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.Inp_Mute"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Mute"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Inp_Mute.@Description"
+    - Name: Inp_Suppress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.Inp_Suppress"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Suppress"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Inp_Suppress.@Description"
+    - Name: Inp_FailActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.Inp_FailActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Calling AOI Fail Active (bypasses OnDelay)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Inp_FailActive.@Description"
+    - Name: Cfg_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.Cfg_Enable"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Cfg_Enable.@Description"
+    - Name: Cfg_OnDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.Cfg_OnDelayT"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "On Time Delay in Seconds"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Cfg_OnDelayT.@Description"
+    - Name: Cfg_OffDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.Cfg_OffDelayT"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Off Time Delay in Seconds"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Cfg_OffDelayT.@Description"
+    - Name: Cfg_Priority
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.Cfg_Priority"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Priority\r\n1 = Low\r\n2 = Medium\r\n3 = High"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Cfg_Priority.@Description"
+    - Name: Alm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.Alm"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Is Active"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Alm.@Description"
+    - Name: Sts_Acked
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.Sts_Acked"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm is Acknowledged"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Sts_Acked.@Description"
+    - Name: Sts_HMIActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.Sts_HMIActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm is Active on HMI"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Sts_HMIActive.@Description"
+    - Name: Sts_ConditionActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.Sts_ConditionActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Condition (Filtered) is Active"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Sts_ConditionActive.@Description"
+    - Name: Wrk_OffDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.Wrk_OffDelay"
+      - Name: BlockRead
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Timer (Reset)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Wrk_OffDelay.@Description"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Wrk_OffDelay.PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Wrk_OffDelay.ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Wrk_OffDelay.EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Wrk_OffDelay.TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Wrk_OffDelay.DN"
+    - Name: Wrk_OnDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.Wrk_OnDelay"
+      - Name: BlockRead
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Timer (Delay)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Wrk_OnDelay.@Description"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Wrk_OnDelay.PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Wrk_OnDelay.ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Wrk_OnDelay.EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Wrk_OnDelay.TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Wrk_OnDelay.DN"
+    - Name: Wrk_Ons
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailDevice.Wrk_Ons"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "New Alarm OneShot"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailDevice.Wrk_Ons.@Description"
+  - Name: FailThermal
+    Type: CargillFunction_Alarm
+    DataType: CargillFunction_Alarm
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.FailThermal"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Provides standard alarming capabilities for conditions in the PLC.  "
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.@Description"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.EnableIn"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Input - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.EnableIn.@Description"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.EnableOut"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Output - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.EnableOut.@Description"
+    - Name: Inp_Condition
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.Inp_Condition"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Condition Exists"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Inp_Condition.@Description"
+    - Name: Inp_Mute
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.Inp_Mute"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Mute"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Inp_Mute.@Description"
+    - Name: Inp_Suppress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.Inp_Suppress"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Suppress"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Inp_Suppress.@Description"
+    - Name: Inp_FailActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.Inp_FailActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Calling AOI Fail Active (bypasses OnDelay)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Inp_FailActive.@Description"
+    - Name: Cfg_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.Cfg_Enable"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Cfg_Enable.@Description"
+    - Name: Cfg_OnDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.Cfg_OnDelayT"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "On Time Delay in Seconds"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Cfg_OnDelayT.@Description"
+    - Name: Cfg_OffDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.Cfg_OffDelayT"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Off Time Delay in Seconds"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Cfg_OffDelayT.@Description"
+    - Name: Cfg_Priority
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.Cfg_Priority"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Priority\r\n1 = Low\r\n2 = Medium\r\n3 = High"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Cfg_Priority.@Description"
+    - Name: Alm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.Alm"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Is Active"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Alm.@Description"
+    - Name: Sts_Acked
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.Sts_Acked"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm is Acknowledged"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Sts_Acked.@Description"
+    - Name: Sts_HMIActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.Sts_HMIActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm is Active on HMI"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Sts_HMIActive.@Description"
+    - Name: Sts_ConditionActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.Sts_ConditionActive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Condition (Filtered) is Active"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Sts_ConditionActive.@Description"
+    - Name: Wrk_OffDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.Wrk_OffDelay"
+      - Name: BlockRead
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Timer (Reset)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Wrk_OffDelay.@Description"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Wrk_OffDelay.PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Wrk_OffDelay.ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Wrk_OffDelay.EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Wrk_OffDelay.TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Wrk_OffDelay.DN"
+    - Name: Wrk_OnDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.Wrk_OnDelay"
+      - Name: BlockRead
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Alarm Timer (Delay)"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Wrk_OnDelay.@Description"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Wrk_OnDelay.PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Wrk_OnDelay.ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Wrk_OnDelay.EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Wrk_OnDelay.TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Wrk_OnDelay.DN"
+    - Name: Wrk_Ons
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613.FailThermal.Wrk_Ons"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "New Alarm OneShot"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613.FailThermal.Wrk_Ons.@Description"
+  - Name: HMI_Area
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.HMI_Area"
+  - Name: HMI_Desc
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.HMI_Desc"
+  - Name: HMI_Sec
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613.HMI_Sec"
+- Name: P613_Ilock
+  Id: g=538de99896bcaa1ac9d8d39371aeae19
+  Type: CargillFunction_InterlockUDT
+  DataType: CargillFunction_InterlockUDT
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "P613_Ilock"
+  - Name: BlockRead
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Interlock
+    Type: CargillFunction_Interlock
+    DataType: CargillFunction_Interlock
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613_Ilock.Interlock"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Provides Interlock Condition Monitoring, Bypassing, and First Out capture. "
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Ilock.Interlock.@Description"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Ilock.Interlock.EnableIn"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Input - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Ilock.Interlock.EnableIn.@Description"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Ilock.Interlock.EnableOut"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Output - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Ilock.Interlock.EnableOut.@Description"
+    - Name: Sts_FirstOut
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Ilock.Interlock.Sts_FirstOut"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Interlock(s) that caused the Device to be Interlocked"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Ilock.Interlock.Sts_FirstOut.@Description"
+    - Name: Cfg_InterlockQuantity
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Ilock.Interlock.Cfg_InterlockQuantity"
+    - Name: Inp_DeviceStatus
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Ilock.Interlock.Inp_DeviceStatus"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "1 = Device OK \r\n0 = Device Interlocked"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Ilock.Interlock.Inp_DeviceStatus.@Description"
+    - Name: Cmd_Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Ilock.Interlock.Cmd_Reset"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Operator Reset Command"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Ilock.Interlock.Cmd_Reset.@Description"
+    - Name: Sts_Interlocked
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Ilock.Interlock.Sts_Interlocked"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "1 = Device Interlocked 0 = OK"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Ilock.Interlock.Sts_Interlocked.@Description"
+    - Name: Sts_Bypassed
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Ilock.Interlock.Sts_Bypassed"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "1 = Device Bypassed"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Ilock.Interlock.Sts_Bypassed.@Description"
+    - Name: Sts_ResetRequired
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Ilock.Interlock.Sts_ResetRequired"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Reset Required by Operator for Interlocks"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Ilock.Interlock.Sts_ResetRequired.@Description"
+    - Name: MaskforGlobals
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [256]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Ilock.Interlock.MaskforGlobals"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Mask Word for GlobalBypasses Word\r\nSetting a Bit(s) will set the corresponding Bit(s) in the GlobalBypasses Word"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Ilock.Interlock.MaskforGlobals.@Description"
+    - Name: Wrk_Interlock
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      ValueRank: OneDimension
+      ArrayDimensions: [256]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Ilock.Interlock.Wrk_Interlock"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Individual Bits are Associated with a Single Interlock\r\nInterlocked if Bit = 1"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Ilock.Interlock.Wrk_Interlock.@Description"
+    - Name: DeviceStatusGood
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Ilock.Interlock.DeviceStatusGood"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Set when Device Status is Good, Cleared on Read of Firstout"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Ilock.Interlock.DeviceStatusGood.@Description"
+    - Name: Wrk_Bypassed
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Ilock.Interlock.Wrk_Bypassed"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "1 = Device Bypassed"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Ilock.Interlock.Wrk_Bypassed.@Description"
+  - Name: Inp_Condition
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [256]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613_Ilock.Inp_Condition"
+  - Name: Set_Bypasses
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [256]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613_Ilock.Set_Bypasses"
+  - Name: Cfg_ResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [256]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613_Ilock.Cfg_ResetRequired"
+- Name: P613_Perm
+  Id: g=900a58ab2a4ee46a8de351860872aaaa
+  Type: CargillFunction_PermissiveUDT
+  DataType: CargillFunction_PermissiveUDT
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "P613_Perm"
+  - Name: BlockRead
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Permissive
+    Type: CargillFunction_Permissive
+    DataType: CargillFunction_Permissive
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613_Perm.Permissive"
+    - Name: BlockRead
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Description
+      Type: RAEtherNetIPMetaTag
+      DataType: String
+      Value: "Provides Permissive Condition Monitoring, Bypassing, and First Out capture. "
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Perm.Permissive.@Description"
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Perm.Permissive.EnableIn"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Input - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Perm.Permissive.EnableIn.@Description"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Perm.Permissive.EnableOut"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Enable Output - System Defined Parameter"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Perm.Permissive.EnableOut.@Description"
+    - Name: Sts_FirstOut
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Perm.Permissive.Sts_FirstOut"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Permissive that caused device to not energize"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Perm.Permissive.Sts_FirstOut.@Description"
+    - Name: Cfg_PermissiveQuantity
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Perm.Permissive.Cfg_PermissiveQuantity"
+    - Name: Inp_DeviceStatus
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Perm.Permissive.Inp_DeviceStatus"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "1 = Device OK \r\n0 = Device Interlocked"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Perm.Permissive.Inp_DeviceStatus.@Description"
+    - Name: Cmd_Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Perm.Permissive.Cmd_Reset"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Operator Reset Command"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Perm.Permissive.Cmd_Reset.@Description"
+    - Name: Sts_PermNotMet
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Perm.Permissive.Sts_PermNotMet"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "0 = OK\r\n1 = NOT OK"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Perm.Permissive.Sts_PermNotMet.@Description"
+    - Name: Sts_Bypassed
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Perm.Permissive.Sts_Bypassed"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "1 = Device Bypassed"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Perm.Permissive.Sts_Bypassed.@Description"
+    - Name: Sts_ResetRequired
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Perm.Permissive.Sts_ResetRequired"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Reset Required by Operator for Permissive"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Perm.Permissive.Sts_ResetRequired.@Description"
+    - Name: MaskforGlobals
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [256]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Perm.Permissive.MaskforGlobals"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Mask Word for GlobalBypasses Word\r\nSetting a Bit(s) will set the corresponding Bit(s) in the GlobalBypasses Word"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Perm.Permissive.MaskforGlobals.@Description"
+    - Name: Wrk_Permissive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      ValueRank: OneDimension
+      ArrayDimensions: [256]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Perm.Permissive.Wrk_Permissive"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Individual Bits are Associated with a Single permissive if Bit = 1"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Perm.Permissive.Wrk_Permissive.@Description"
+    - Name: DeviceStatusGood
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Perm.Permissive.DeviceStatusGood"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "Set when Device Status is Good, Cleared on Read of Firstout"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Perm.Permissive.DeviceStatusGood.@Description"
+    - Name: Wrk_Bypassed
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "P613_Perm.Permissive.Wrk_Bypassed"
+      - Name: Description
+        Type: RAEtherNetIPMetaTag
+        DataType: String
+        Value: "1 = Device Bypassed"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "P613_Perm.Permissive.Wrk_Bypassed.@Description"
+  - Name: Inp_Condition
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [256]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613_Perm.Inp_Condition"
+  - Name: Set_Bypasses
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [256]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613_Perm.Set_Bypasses"
+  - Name: Cfg_ResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [256]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "P613_Perm.Cfg_ResetRequired"
 - Name: HLS603
   Type: CargillDevice_Switch
   DataType: CargillDevice_Switch

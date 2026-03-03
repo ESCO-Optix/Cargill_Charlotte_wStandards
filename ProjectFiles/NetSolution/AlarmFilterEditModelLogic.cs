@@ -9,6 +9,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Xml.Linq;
 using FTOptix.Alarm;
+using FTOptix.EventLogger;
 #endregion
 
 public class AlarmFilterEditModelLogic : BaseNetLogic

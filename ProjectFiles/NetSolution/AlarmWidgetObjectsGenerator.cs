@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UAManagedCore;
 using FTOptix.Alarm;
+using FTOptix.EventLogger;
 using static AlarmFilterDataLogic;
 using OpcUa = UAManagedCore.OpcUa;
 #endregion

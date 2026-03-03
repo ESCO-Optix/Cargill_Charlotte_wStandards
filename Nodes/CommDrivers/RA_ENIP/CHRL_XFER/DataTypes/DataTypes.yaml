@@ -5644,16 +5644,6 @@ Children:
        "Id": 1
       }
      },{
-      "Name": "OwnerID",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "OwnerOpnCls",
-      "DataType": {
-       "Id": 1
-      }
-     },{
       "Name": "VlvConfigPLC",
       "DataType": {
        "Id": 6
@@ -5715,13 +5705,6 @@ Children:
       "Name": "Wrk_PriorityUnacked",
       "DataType": {
        "Id": 6
-      }
-     },{
-      "Name": "@AlarmSet",
-      "DataType": {
-       "IdType": 2,
-       "Id": "2f7d172c6c74d0d647a4e8abcf082721",
-       "Namespace": 24
       }
      }]
    }
@@ -7603,6 +7586,1279 @@ Children:
      }]
    }
   DisplayName: {"LocaleId":"","Text":"CargillDevice_Motor"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: P_E300Ovld_Inp
+  Id: g=410848e56eaf971c2a238a200b40357e
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "P_E300Ovld_Inp",
+    "DataType": {
+     "IdType": 2,
+     "Id": "410848e56eaf971c2a238a200b40357e",
+     "Namespace": 24
+    },
+    "Fields": [{
+      "Name": "Fault",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "DeviceStatus0",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "TripPresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "WarningPresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InvalidConfiguration",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorCurrentPresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GroundFaultCurrentPresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorVoltagePresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EmergencyStartEnabled",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DeviceLogixEnabled",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackTimeoutEnabled",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperatorStationPresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VoltageSensingPresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InternalGroundFaultSensingPresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ExternalGroundFaultSensingPresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PTCSensingPresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ready",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DeviceStatus1",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ControlModule24VDCPresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ControlModule120VACPresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ControlModule240VACPresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SensingModule30APresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SensingModule60APresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SensingModule100APresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SensingModule200APresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DigitalModule1Present",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DigitalModule2Present",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DigitalModule3Present",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DigitalModule4Present",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AnalogModule1Present",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AnalogModule2Present",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AnalogModule3Present",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AnalogModule4Present",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InputStatus0",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Pt00Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt01Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt02Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt03Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt04Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt05Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InputStatus1",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Digital1Pt00Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital1Pt01Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital1Pt02Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital1Pt03Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital2Pt00Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital2Pt01Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital2Pt02Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital2Pt03Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital3Pt00Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital3Pt01Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital3Pt02Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital3Pt03Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital4Pt00Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital4Pt01Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital4Pt02Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital4Pt03Data",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OutputStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Pt00Readback",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt01Readback",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt02Readback",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital1Pt00Readback",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital1Pt01Readback",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital2Pt00Readback",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital2Pt01Readback",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital3Pt00Readback",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital3Pt01Readback",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital4Pt00Readback",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Digital4Pt01Readback",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperatorStation",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "OperatorStationStart1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperatorStationStart2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperatorStationLocalRemote",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperatorStationStop",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperatorStationReset",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperatorStationStart1LEDReadback",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperatorStationStart2LEDReadback",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperatorStationLocalLEDReadback",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperatorStationRemoteLEDReadback",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperatorStationStopLEDReadback",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CurrentTripStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "OverloadTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PhaseLossTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GroundFaultCurrentTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StallTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "JamTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnderloadTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CurrentImbalanceTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L1UnderCurrentTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L2UnderCurrentTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L3UnderCurrentTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L1OverCurrentTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L2OverCurrentTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L3OverCurrentTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L1LineLossTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L2LineLossTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L3LineLossTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CurrentWarningStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "OverloadWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GroundFaultCurrentWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "JamWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnderloadWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CurrentImbalanceWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L1UnderCurrentWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L2UnderCurrentWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L3UnderCurrentWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L1OverCurrentWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L2OverCurrentWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L3OverCurrentWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L1LineLossWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L2LineLossWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "L3LineLossWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VoltageTripStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "UnderVoltageTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OverVoltageTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VoltageImbalanceTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PhaseRotationMismatchTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnderFrequencyTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OverFrequencyTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VoltageWarningStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "UnderVoltageWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OverVoltageWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VoltageUnbalWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PhaseRotationMismatchWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnderFrequencyWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OverFrequencyWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PowerTripStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "UnderRealPowerTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OverRealPowerTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnderReactivePowerConsumedTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OverReactivePowerConsumedTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnderReactivePowerGeneratedTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OverReactivePowerGeneratedTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnderApparentPowerTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OverApparentPowerTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnderPowerFactorLaggingTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OverPowerFactorLaggingTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnderPowerFactorLeadingTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OverPowerFactorLeadingTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PowerWarningStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "UnderRealPowerWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OverRealPowerWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnderReactivePowerConsumedWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OverReactivePowerConsumedWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnderReactivePowerGeneratedWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OverReactivePowerGeneratedWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnderApparentPowerWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OverApparentPowerWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnderPowerFactorLaggingWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OverPowerFactorLaggingWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnderPowerFactorLeadingWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OverPowerFactorLeadingWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ControlTripStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "TestTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PTCTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DeviceLogixTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperatorStationTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RemoteTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BlockedStartTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HardwareFaultTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConfigurationTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ModuleMismatchTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DeviceLogixFBTimeoutTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ExpansionBusTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NVMErrorTrip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ControlWarningStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "PTCWarn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DeviceLogixWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ModuleMismatchWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DeviceLogixFBTimeoutWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ExpansionBusWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NumberOfStartsWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperatingHoursWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AnalogTripStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Analog1Pt00Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog1Pt01Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog1Pt02Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog2Pt00Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog2Pt01Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog2Pt02Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog3Pt00Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog3Pt01Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog3Pt02Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog4Pt00Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog4Pt01Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog4Pt02Trip",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AnalogWarningStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Analog1Pt00Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog1Pt01Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog1Pt02Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog2Pt00Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog2Pt01Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog2Pt02Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog3Pt00Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog3Pt01Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog3Pt02Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog4Pt00Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog4Pt01Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog4Pt02Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PercentTCU",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "CurrentImbalance",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "AvgPercentFLA",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "AvgCurrent",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "L1Current",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "L2Current",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "L3Current",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "GroundFaultCurrent",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "AvgLLVoltage",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "L1L2Voltage",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "L2L3Voltage",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "L3L1Voltage",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "TotalRealPower",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TotalReactivePower",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TotalApparentPower",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "PowerFactor",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "TimeToReset",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TimeToStart",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TripHistory0",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "WarningHistory0",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "InvalidConfigParam",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "UserDefinedData",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [3]
+     },{
+      "Name": "PtDeviceOutputs",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Pt00DeviceOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt01DeviceOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt02DeviceOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt03DeviceOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt04DeviceOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt05DeviceOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt06DeviceOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt07DeviceOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt08DeviceOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt09DeviceOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt10DeviceOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt11DeviceOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt12DeviceOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt13DeviceOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt14DeviceOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Pt15DeviceOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Analog1Pt00Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Analog1Pt01Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Analog1Pt02Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Analog2Pt00Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Analog2Pt01Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Analog2Pt02Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Analog3Pt00Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Analog3Pt01Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Analog3Pt02Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Analog4Pt00Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Analog4Pt01Data",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Analog4Pt02Data",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"P_E300Ovld_Inp"}
   Children:
   - Name: ns=0;Default Binary
     Type: DataTypeEncodingType
@@ -9912,1279 +11168,6 @@ Children:
      }]
    }
   DisplayName: {"LocaleId":"","Text":"CargillFunction_Interlock"}
-  Children:
-  - Name: ns=0;Default Binary
-    Type: DataTypeEncodingType
-    ModellingRule: None
-    DisplayName: {"LocaleId":"","Text":"Default Binary"}
-    ReferenceType: HasEncoding
-- Class: DataType
-  Name: P_E300Ovld_Inp
-  Id: g=410848e56eaf971c2a238a200b40357e
-  Supertype: Structure
-  StructDefinition: 
-   {
-    "Name": "P_E300Ovld_Inp",
-    "DataType": {
-     "IdType": 2,
-     "Id": "410848e56eaf971c2a238a200b40357e",
-     "Namespace": 24
-    },
-    "Fields": [{
-      "Name": "Fault",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "DeviceStatus0",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "TripPresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "WarningPresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "InvalidConfiguration",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "MotorCurrentPresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "GroundFaultCurrentPresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "MotorVoltagePresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "EmergencyStartEnabled",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "DeviceLogixEnabled",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "FeedbackTimeoutEnabled",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OperatorStationPresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "VoltageSensingPresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "InternalGroundFaultSensingPresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "ExternalGroundFaultSensingPresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "PTCSensingPresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Ready",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "DeviceStatus1",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "ControlModule24VDCPresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "ControlModule120VACPresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "ControlModule240VACPresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "SensingModule30APresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "SensingModule60APresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "SensingModule100APresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "SensingModule200APresent",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "DigitalModule1Present",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "DigitalModule2Present",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "DigitalModule3Present",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "DigitalModule4Present",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "AnalogModule1Present",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "AnalogModule2Present",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "AnalogModule3Present",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "AnalogModule4Present",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "InputStatus0",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Pt00Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt01Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt02Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt03Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt04Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt05Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "InputStatus1",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Digital1Pt00Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital1Pt01Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital1Pt02Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital1Pt03Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital2Pt00Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital2Pt01Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital2Pt02Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital2Pt03Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital3Pt00Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital3Pt01Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital3Pt02Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital3Pt03Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital4Pt00Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital4Pt01Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital4Pt02Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital4Pt03Data",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OutputStatus",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Pt00Readback",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt01Readback",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt02Readback",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital1Pt00Readback",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital1Pt01Readback",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital2Pt00Readback",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital2Pt01Readback",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital3Pt00Readback",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital3Pt01Readback",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital4Pt00Readback",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Digital4Pt01Readback",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OperatorStation",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "OperatorStationStart1",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OperatorStationStart2",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OperatorStationLocalRemote",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OperatorStationStop",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OperatorStationReset",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OperatorStationStart1LEDReadback",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OperatorStationStart2LEDReadback",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OperatorStationLocalLEDReadback",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OperatorStationRemoteLEDReadback",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OperatorStationStopLEDReadback",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "CurrentTripStatus",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "OverloadTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "PhaseLossTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "GroundFaultCurrentTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "StallTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "JamTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "UnderloadTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "CurrentImbalanceTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L1UnderCurrentTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L2UnderCurrentTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L3UnderCurrentTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L1OverCurrentTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L2OverCurrentTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L3OverCurrentTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L1LineLossTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L2LineLossTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L3LineLossTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "CurrentWarningStatus",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "OverloadWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "GroundFaultCurrentWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "JamWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "UnderloadWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "CurrentImbalanceWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L1UnderCurrentWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L2UnderCurrentWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L3UnderCurrentWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L1OverCurrentWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L2OverCurrentWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L3OverCurrentWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L1LineLossWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L2LineLossWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "L3LineLossWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "VoltageTripStatus",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "UnderVoltageTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverVoltageTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "VoltageImbalanceTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "PhaseRotationMismatchTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "UnderFrequencyTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverFrequencyTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "VoltageWarningStatus",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "UnderVoltageWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverVoltageWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "VoltageUnbalWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "PhaseRotationMismatchWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "UnderFrequencyWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverFrequencyWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "PowerTripStatus",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "UnderRealPowerTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverRealPowerTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "UnderReactivePowerConsumedTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverReactivePowerConsumedTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "UnderReactivePowerGeneratedTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverReactivePowerGeneratedTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "UnderApparentPowerTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverApparentPowerTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "UnderPowerFactorLaggingTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverPowerFactorLaggingTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "UnderPowerFactorLeadingTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverPowerFactorLeadingTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "PowerWarningStatus",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "UnderRealPowerWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverRealPowerWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "UnderReactivePowerConsumedWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverReactivePowerConsumedWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "UnderReactivePowerGeneratedWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverReactivePowerGeneratedWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "UnderApparentPowerWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverApparentPowerWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "UnderPowerFactorLaggingWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverPowerFactorLaggingWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "UnderPowerFactorLeadingWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OverPowerFactorLeadingWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "ControlTripStatus",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "TestTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "PTCTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "DeviceLogixTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OperatorStationTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "RemoteTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "BlockedStartTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "HardwareFaultTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "ConfigurationTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "ModuleMismatchTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "DeviceLogixFBTimeoutTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "ExpansionBusTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "NVMErrorTrip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "ControlWarningStatus",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "PTCWarn",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "DeviceLogixWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "ModuleMismatchWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "DeviceLogixFBTimeoutWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "ExpansionBusWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "NumberOfStartsWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "OperatingHoursWarning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "AnalogTripStatus",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Analog1Pt00Trip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog1Pt01Trip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog1Pt02Trip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog2Pt00Trip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog2Pt01Trip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog2Pt02Trip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog3Pt00Trip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog3Pt01Trip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog3Pt02Trip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog4Pt00Trip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog4Pt01Trip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog4Pt02Trip",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "AnalogWarningStatus",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Analog1Pt00Warning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog1Pt01Warning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog1Pt02Warning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog2Pt00Warning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog2Pt01Warning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog2Pt02Warning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog3Pt00Warning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog3Pt01Warning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog3Pt02Warning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog4Pt00Warning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog4Pt01Warning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog4Pt02Warning",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "PercentTCU",
-      "DataType": {
-       "Id": 2
-      }
-     },{
-      "Name": "CurrentImbalance",
-      "DataType": {
-       "Id": 2
-      }
-     },{
-      "Name": "AvgPercentFLA",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "AvgCurrent",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "L1Current",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "L2Current",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "L3Current",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "GroundFaultCurrent",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "AvgLLVoltage",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "L1L2Voltage",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "L2L3Voltage",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "L3L1Voltage",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "TotalRealPower",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "TotalReactivePower",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "TotalApparentPower",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "PowerFactor",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "TimeToReset",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "TimeToStart",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "TripHistory0",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "WarningHistory0",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "InvalidConfigParam",
-      "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "UserDefinedData",
-      "DataType": {
-       "Id": 6
-      },
-      "ValueRank": "OneDimension",
-      "ArrayDimensions": [3]
-     },{
-      "Name": "PtDeviceOutputs",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Pt00DeviceOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt01DeviceOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt02DeviceOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt03DeviceOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt04DeviceOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt05DeviceOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt06DeviceOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt07DeviceOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt08DeviceOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt09DeviceOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt10DeviceOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt11DeviceOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt12DeviceOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt13DeviceOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt14DeviceOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Pt15DeviceOut",
-      "DataType": {
-       "Id": 1
-      }
-     },{
-      "Name": "Analog1Pt00Data",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Analog1Pt01Data",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Analog1Pt02Data",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Analog2Pt00Data",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Analog2Pt01Data",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Analog2Pt02Data",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Analog3Pt00Data",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Analog3Pt01Data",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Analog3Pt02Data",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Analog4Pt00Data",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Analog4Pt01Data",
-      "DataType": {
-       "Id": 4
-      }
-     },{
-      "Name": "Analog4Pt02Data",
-      "DataType": {
-       "Id": 4
-      }
-     }]
-   }
-  DisplayName: {"LocaleId":"","Text":"P_E300Ovld_Inp"}
   Children:
   - Name: ns=0;Default Binary
     Type: DataTypeEncodingType

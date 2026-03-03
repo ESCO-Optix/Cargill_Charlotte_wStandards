@@ -130,12 +130,1328 @@ Children:
   DataType: CargillDevice_Valve
   ValueRank: Any
   Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "EnableOut"
+  - Name: Cfg_Type
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cfg_Type"
+  - Name: Cfg_Data
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cfg_Data"
+  - Name: Cfg_FailOpen
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cfg_FailOpen"
+  - Name: Cfg_UseValveLimits
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cfg_UseValveLimits"
+  - Name: Cfg_UseLimitsResetT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cfg_UseLimitsResetT"
+  - Name: Cfg_ForceUseLimits
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cfg_ForceUseLimits"
+  - Name: Cfg_LimitsNormallyClosed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cfg_LimitsNormallyClosed"
+  - Name: Cfg_HasDualSolenoid
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cfg_HasDualSolenoid"
+  - Name: Cfg_FailOpenLimT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cfg_FailOpenLimT"
+  - Name: Cfg_LimitOpenFailPri
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cfg_LimitOpenFailPri"
+  - Name: Cfg_FailCloseLimT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cfg_FailCloseLimT"
+  - Name: Cfg_LimitCloseFailPri
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cfg_LimitCloseFailPri"
+  - Name: Cfg_FailBothLimT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cfg_FailBothLimT"
+  - Name: Cfg_FailBothPri
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cfg_FailBothPri"
+  - Name: Cfg_FailHWT
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cfg_FailHWT"
+  - Name: Cfg_HWFailPri
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cfg_HWFailPri"
+  - Name: Inp_Interlocked
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Inp_Interlocked"
+  - Name: Inp_PermNotMet
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Inp_PermNotMet"
+  - Name: Inp_Ack
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Inp_Ack"
+  - Name: Inp_ControlMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Inp_ControlMode"
+  - Name: Inp_LimitClosed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Inp_LimitClosed"
+  - Name: Inp_LimitOpen
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Inp_LimitOpen"
+  - Name: Inp_PStop
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Inp_PStop"
+  - Name: Inp_IOFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Inp_IOFault"
+  - Name: PCmd_ProgLock
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PCmd_ProgLock"
+  - Name: PCmd_Open
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PCmd_Open"
+  - Name: OCmd_ProgLock
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OCmd_ProgLock"
+  - Name: OCmd_Open
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OCmd_Open"
+  - Name: Ovrd_ProgLock
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ovrd_ProgLock"
+  - Name: HMI_Solenoid
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_Solenoid"
+  - Name: Sts_SimEnabled
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_SimEnabled"
+  - Name: Sts_Opened
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Opened"
+  - Name: Sts_Closed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Closed"
+  - Name: Sts_Ackd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Ackd"
+  - Name: Sts_AlmActive
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_AlmActive"
+  - Name: Sts_Val
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Val"
+  - Name: Sts_FirstOut
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_FirstOut"
+  - Name: Sts_PStopTripped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_PStopTripped"
+  - Name: Alm_LimitFailOpen
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alm_LimitFailOpen"
+  - Name: Alm_LimitFailClose
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alm_LimitFailClose"
+  - Name: Alm_FailedBothLimits
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alm_FailedBothLimits"
+  - Name: Alm_HWFail
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alm_HWFail"
+  - Name: Out_SolenoidOpen
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Out_SolenoidOpen"
+  - Name: Out_SolenoidClose
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Out_SolenoidClose"
+  - Name: Val_CurrPriority
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Val_CurrPriority"
+  - Name: Sim_FailCloseLimit
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sim_FailCloseLimit"
+  - Name: Sim_FailOpenLimit
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sim_FailOpenLimit"
+  - Name: VlvConfigPLC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VlvConfigPLC"
+  - Name: VlvConfigLast
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VlvConfigLast"
+  - Name: HMI_Area
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_Area"
+  - Name: HMI_Desc
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_Desc"
+  - Name: HMI_Sec
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_Sec"
+  - Name: FailBothLimits
+    Type: CargillFunction_Alarm
+    DataType: CargillFunction_Alarm
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EnableOut"
+    - Name: Inp_Condition
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_Condition"
+    - Name: Inp_Mute
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_Mute"
+    - Name: Inp_Suppress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_Suppress"
+    - Name: Inp_FailActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_FailActive"
+    - Name: Cfg_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_Enable"
+    - Name: Cfg_OnDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_OnDelayT"
+    - Name: Cfg_OffDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_OffDelayT"
+    - Name: Cfg_Priority
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_Priority"
+    - Name: Alm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Alm"
+    - Name: Sts_Acked
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Acked"
+    - Name: Sts_HMIActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_HMIActive"
+    - Name: Sts_ConditionActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_ConditionActive"
+    - Name: Wrk_OffDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+    - Name: Wrk_OnDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+    - Name: Wrk_Ons
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Wrk_Ons"
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+  - Name: FailPLCHw
+    Type: CargillFunction_Alarm
+    DataType: CargillFunction_Alarm
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EnableOut"
+    - Name: Inp_Condition
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_Condition"
+    - Name: Inp_Mute
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_Mute"
+    - Name: Inp_Suppress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_Suppress"
+    - Name: Inp_FailActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_FailActive"
+    - Name: Cfg_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_Enable"
+    - Name: Cfg_OnDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_OnDelayT"
+    - Name: Cfg_OffDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_OffDelayT"
+    - Name: Cfg_Priority
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_Priority"
+    - Name: Alm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Alm"
+    - Name: Sts_Acked
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Acked"
+    - Name: Sts_HMIActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_HMIActive"
+    - Name: Sts_ConditionActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_ConditionActive"
+    - Name: Wrk_OffDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+    - Name: Wrk_OnDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+    - Name: Wrk_Ons
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Wrk_Ons"
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+  - Name: FailClose
+    Type: CargillFunction_Alarm
+    DataType: CargillFunction_Alarm
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EnableOut"
+    - Name: Inp_Condition
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_Condition"
+    - Name: Inp_Mute
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_Mute"
+    - Name: Inp_Suppress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_Suppress"
+    - Name: Inp_FailActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_FailActive"
+    - Name: Cfg_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_Enable"
+    - Name: Cfg_OnDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_OnDelayT"
+    - Name: Cfg_OffDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_OffDelayT"
+    - Name: Cfg_Priority
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_Priority"
+    - Name: Alm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Alm"
+    - Name: Sts_Acked
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Acked"
+    - Name: Sts_HMIActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_HMIActive"
+    - Name: Sts_ConditionActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_ConditionActive"
+    - Name: Wrk_OffDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+    - Name: Wrk_OnDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+    - Name: Wrk_Ons
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Wrk_Ons"
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+  - Name: FailOpen
+    Type: CargillFunction_Alarm
+    DataType: CargillFunction_Alarm
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EnableOut"
+    - Name: Inp_Condition
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_Condition"
+    - Name: Inp_Mute
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_Mute"
+    - Name: Inp_Suppress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_Suppress"
+    - Name: Inp_FailActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Inp_FailActive"
+    - Name: Cfg_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_Enable"
+    - Name: Cfg_OnDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_OnDelayT"
+    - Name: Cfg_OffDelayT
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_OffDelayT"
+    - Name: Cfg_Priority
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Cfg_Priority"
+    - Name: Alm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Alm"
+    - Name: Sts_Acked
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_Acked"
+    - Name: Sts_HMIActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_HMIActive"
+    - Name: Sts_ConditionActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sts_ConditionActive"
+    - Name: Wrk_OffDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+    - Name: Wrk_OnDelay
+      Type: TIMER
+      DataType: TIMER
+      Children:
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+    - Name: Wrk_Ons
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Wrk_Ons"
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+  - Name: Wrk_FailPositionResults
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Wrk_FailPositionResults"
+  - Name: Wrk_PriorityUnacked
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Wrk_PriorityUnacked"
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Root.Objects.Cargill_Standard.Model.CargillDevice_Valve"
+  - Name: BlockRead
+    Type: BaseDataVariableType
+    DataType: Boolean
   - Name: '@Alarms'
     Type: FolderType
     Children:
     - Name: VlvOpenFail
       Type: ALARM_CONDITION
       DataType: ALARM_CONDITION
+      ValueRank: Any
       Children:
       - Name: InFault
         Type: RAEtherNetIPTag
@@ -2092,398 +3408,6 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-  - Name: EnableIn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EnableIn"
-  - Name: EnableOut
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EnableOut"
-  - Name: Cfg_Type
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cfg_Type"
-  - Name: Cfg_Data
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cfg_Data"
-  - Name: Cfg_FailOpen
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cfg_FailOpen"
-  - Name: Cfg_UseValveLimits
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cfg_UseValveLimits"
-  - Name: Cfg_UseLimitsResetT
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cfg_UseLimitsResetT"
-  - Name: Cfg_ForceUseLimits
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cfg_ForceUseLimits"
-  - Name: Cfg_LimitsNormallyClosed
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cfg_LimitsNormallyClosed"
-  - Name: Cfg_HasDualSolenoid
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cfg_HasDualSolenoid"
-  - Name: Cfg_FailOpenLimT
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cfg_FailOpenLimT"
-  - Name: Cfg_LimitOpenFailPri
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cfg_LimitOpenFailPri"
-  - Name: Cfg_FailCloseLimT
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cfg_FailCloseLimT"
-  - Name: Cfg_LimitCloseFailPri
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cfg_LimitCloseFailPri"
-  - Name: Cfg_FailBothLimT
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cfg_FailBothLimT"
-  - Name: Cfg_FailBothPri
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cfg_FailBothPri"
-  - Name: Cfg_FailHWT
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cfg_FailHWT"
-  - Name: Cfg_HWFailPri
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cfg_HWFailPri"
-  - Name: Inp_Interlocked
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Inp_Interlocked"
-  - Name: Inp_PermNotMet
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Inp_PermNotMet"
-  - Name: Inp_Ack
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Inp_Ack"
-  - Name: Inp_ControlMode
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Inp_ControlMode"
-  - Name: Inp_LimitClosed
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Inp_LimitClosed"
-  - Name: Inp_LimitOpen
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Inp_LimitOpen"
-  - Name: Inp_PStop
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Inp_PStop"
-  - Name: Inp_IOFault
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Inp_IOFault"
-  - Name: PCmd_ProgLock
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PCmd_ProgLock"
-  - Name: PCmd_Open
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "PCmd_Open"
-  - Name: OCmd_ProgLock
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OCmd_ProgLock"
-  - Name: OCmd_Open
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "OCmd_Open"
-  - Name: Ovrd_ProgLock
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Ovrd_ProgLock"
-  - Name: HMI_Solenoid
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "HMI_Solenoid"
-  - Name: Sts_SimEnabled
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_SimEnabled"
-  - Name: Sts_Opened
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Opened"
-  - Name: Sts_Closed
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Closed"
-  - Name: Sts_Ackd
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Ackd"
-  - Name: Sts_AlmActive
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_AlmActive"
-  - Name: Sts_Val
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Val"
-  - Name: Sts_FirstOut
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_FirstOut"
-  - Name: Sts_PStopTripped
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_PStopTripped"
-  - Name: Alm_LimitFailOpen
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alm_LimitFailOpen"
-  - Name: Alm_LimitFailClose
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alm_LimitFailClose"
-  - Name: Alm_FailedBothLimits
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alm_FailedBothLimits"
-  - Name: Alm_HWFail
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Alm_HWFail"
-  - Name: Out_SolenoidOpen
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Out_SolenoidOpen"
-  - Name: Out_SolenoidClose
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Out_SolenoidClose"
-  - Name: Val_CurrPriority
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Val_CurrPriority"
-  - Name: Sim_FailCloseLimit
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sim_FailCloseLimit"
-  - Name: Sim_FailOpenLimit
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sim_FailOpenLimit"
   - Name: OwnerID
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -2500,925 +3424,10 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "OwnerOpnCls"
-  - Name: VlvConfigPLC
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "VlvConfigPLC"
-  - Name: VlvConfigLast
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "VlvConfigLast"
-  - Name: HMI_Area
-    Type: RAEtherNetIPTag
-    DataType: String
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "HMI_Area"
-  - Name: HMI_Desc
-    Type: RAEtherNetIPTag
-    DataType: String
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "HMI_Desc"
-  - Name: HMI_Sec
-    Type: RAEtherNetIPTag
-    DataType: String
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "HMI_Sec"
-  - Name: FailBothLimits
-    Type: CargillFunction_Alarm
-    DataType: CargillFunction_Alarm
-    Children:
-    - Name: EnableIn
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "EnableIn"
-    - Name: EnableOut
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "EnableOut"
-    - Name: Inp_Condition
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Inp_Condition"
-    - Name: Inp_Mute
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Inp_Mute"
-    - Name: Inp_Suppress
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Inp_Suppress"
-    - Name: Inp_FailActive
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Inp_FailActive"
-    - Name: Cfg_Enable
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cfg_Enable"
-    - Name: Cfg_OnDelayT
-      Type: RAEtherNetIPTag
-      DataType: Float
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cfg_OnDelayT"
-    - Name: Cfg_OffDelayT
-      Type: RAEtherNetIPTag
-      DataType: Float
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cfg_OffDelayT"
-    - Name: Cfg_Priority
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cfg_Priority"
-    - Name: Alm
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Alm"
-    - Name: Sts_Acked
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Sts_Acked"
-    - Name: Sts_HMIActive
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Sts_HMIActive"
-    - Name: Sts_ConditionActive
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Sts_ConditionActive"
-    - Name: Wrk_OffDelay
-      Type: TIMER
-      DataType: TIMER
-      Children:
-      - Name: PRE
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "PRE"
-      - Name: ACC
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "ACC"
-      - Name: EN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "EN"
-      - Name: TT
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "TT"
-      - Name: DN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "DN"
-    - Name: Wrk_OnDelay
-      Type: TIMER
-      DataType: TIMER
-      Children:
-      - Name: PRE
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "PRE"
-      - Name: ACC
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "ACC"
-      - Name: EN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "EN"
-      - Name: TT
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "TT"
-      - Name: DN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "DN"
-    - Name: Wrk_Ons
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Wrk_Ons"
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-  - Name: FailPLCHw
-    Type: CargillFunction_Alarm
-    DataType: CargillFunction_Alarm
-    Children:
-    - Name: EnableIn
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "EnableIn"
-    - Name: EnableOut
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "EnableOut"
-    - Name: Inp_Condition
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Inp_Condition"
-    - Name: Inp_Mute
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Inp_Mute"
-    - Name: Inp_Suppress
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Inp_Suppress"
-    - Name: Inp_FailActive
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Inp_FailActive"
-    - Name: Cfg_Enable
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cfg_Enable"
-    - Name: Cfg_OnDelayT
-      Type: RAEtherNetIPTag
-      DataType: Float
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cfg_OnDelayT"
-    - Name: Cfg_OffDelayT
-      Type: RAEtherNetIPTag
-      DataType: Float
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cfg_OffDelayT"
-    - Name: Cfg_Priority
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cfg_Priority"
-    - Name: Alm
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Alm"
-    - Name: Sts_Acked
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Sts_Acked"
-    - Name: Sts_HMIActive
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Sts_HMIActive"
-    - Name: Sts_ConditionActive
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Sts_ConditionActive"
-    - Name: Wrk_OffDelay
-      Type: TIMER
-      DataType: TIMER
-      Children:
-      - Name: PRE
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "PRE"
-      - Name: ACC
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "ACC"
-      - Name: EN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "EN"
-      - Name: TT
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "TT"
-      - Name: DN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "DN"
-    - Name: Wrk_OnDelay
-      Type: TIMER
-      DataType: TIMER
-      Children:
-      - Name: PRE
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "PRE"
-      - Name: ACC
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "ACC"
-      - Name: EN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "EN"
-      - Name: TT
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "TT"
-      - Name: DN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "DN"
-    - Name: Wrk_Ons
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Wrk_Ons"
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-  - Name: FailClose
-    Type: CargillFunction_Alarm
-    DataType: CargillFunction_Alarm
-    Children:
-    - Name: EnableIn
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "EnableIn"
-    - Name: EnableOut
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "EnableOut"
-    - Name: Inp_Condition
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Inp_Condition"
-    - Name: Inp_Mute
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Inp_Mute"
-    - Name: Inp_Suppress
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Inp_Suppress"
-    - Name: Inp_FailActive
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Inp_FailActive"
-    - Name: Cfg_Enable
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cfg_Enable"
-    - Name: Cfg_OnDelayT
-      Type: RAEtherNetIPTag
-      DataType: Float
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cfg_OnDelayT"
-    - Name: Cfg_OffDelayT
-      Type: RAEtherNetIPTag
-      DataType: Float
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cfg_OffDelayT"
-    - Name: Cfg_Priority
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cfg_Priority"
-    - Name: Alm
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Alm"
-    - Name: Sts_Acked
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Sts_Acked"
-    - Name: Sts_HMIActive
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Sts_HMIActive"
-    - Name: Sts_ConditionActive
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Sts_ConditionActive"
-    - Name: Wrk_OffDelay
-      Type: TIMER
-      DataType: TIMER
-      Children:
-      - Name: PRE
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "PRE"
-      - Name: ACC
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "ACC"
-      - Name: EN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "EN"
-      - Name: TT
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "TT"
-      - Name: DN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "DN"
-    - Name: Wrk_OnDelay
-      Type: TIMER
-      DataType: TIMER
-      Children:
-      - Name: PRE
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "PRE"
-      - Name: ACC
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "ACC"
-      - Name: EN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "EN"
-      - Name: TT
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "TT"
-      - Name: DN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "DN"
-    - Name: Wrk_Ons
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Wrk_Ons"
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-  - Name: FailOpen
-    Type: CargillFunction_Alarm
-    DataType: CargillFunction_Alarm
-    Children:
-    - Name: EnableIn
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "EnableIn"
-    - Name: EnableOut
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "EnableOut"
-    - Name: Inp_Condition
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Inp_Condition"
-    - Name: Inp_Mute
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Inp_Mute"
-    - Name: Inp_Suppress
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Inp_Suppress"
-    - Name: Inp_FailActive
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Inp_FailActive"
-    - Name: Cfg_Enable
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cfg_Enable"
-    - Name: Cfg_OnDelayT
-      Type: RAEtherNetIPTag
-      DataType: Float
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cfg_OnDelayT"
-    - Name: Cfg_OffDelayT
-      Type: RAEtherNetIPTag
-      DataType: Float
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cfg_OffDelayT"
-    - Name: Cfg_Priority
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Cfg_Priority"
-    - Name: Alm
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Alm"
-    - Name: Sts_Acked
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Sts_Acked"
-    - Name: Sts_HMIActive
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Sts_HMIActive"
-    - Name: Sts_ConditionActive
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Sts_ConditionActive"
-    - Name: Wrk_OffDelay
-      Type: TIMER
-      DataType: TIMER
-      Children:
-      - Name: PRE
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "PRE"
-      - Name: ACC
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "ACC"
-      - Name: EN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "EN"
-      - Name: TT
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "TT"
-      - Name: DN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "DN"
-    - Name: Wrk_OnDelay
-      Type: TIMER
-      DataType: TIMER
-      Children:
-      - Name: PRE
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "PRE"
-      - Name: ACC
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "ACC"
-      - Name: EN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "EN"
-      - Name: TT
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "TT"
-      - Name: DN
-        Type: RAEtherNetIPTag
-        DataType: Boolean
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "DN"
-    - Name: Wrk_Ons
-      Type: RAEtherNetIPTag
-      DataType: Boolean
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Wrk_Ons"
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-  - Name: Wrk_FailPositionResults
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Wrk_FailPositionResults"
-  - Name: Wrk_PriorityUnacked
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Wrk_PriorityUnacked"
   - Name: '@AlarmSet'
     Type: ALARM_SET
     DataType: ALARM_SET
+    ValueRank: Any
     Children:
     - Name: InAlarmUnackedCount
       Type: RAEtherNetIPTag
@@ -3503,13 +3512,6 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Root.Objects.Cargill_Standard.Model.CargillDevice_Valve"
-  - Name: BlockRead
-    Type: BaseDataVariableType
-    DataType: Boolean
   - Name: Inp_Sim
     Type: RAEtherNetIPTag
     DataType: Boolean

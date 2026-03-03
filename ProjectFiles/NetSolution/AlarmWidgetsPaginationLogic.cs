@@ -7,6 +7,7 @@ using System;
 using System.Linq;
 using UAManagedCore;
 using FTOptix.Alarm;
+using FTOptix.EventLogger;
 #endregion
 
 public class AlarmWidgetsPaginationLogic : BaseNetLogic

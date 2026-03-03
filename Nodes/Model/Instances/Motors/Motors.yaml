@@ -32,13 +32,14 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Permissive"
-- Name: P000001
+- Name: P613
+  Id: g=fd6f12424a8eeb6dac0369bc1e3feacc
   Type: Cgl_Motor_PI
   Children:
   - Name: Device
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/P000001"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/P613"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -47,7 +48,7 @@ Children:
   - Name: Interlock
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/P000001_ILock"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/P613_Ilock"
     Children:
     - Name: Kind
       Type: PropertyType
@@ -56,36 +57,7 @@ Children:
   - Name: Permissive
     Type: NodePointer
     DataType: NodeId
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Permissive"
-- Name: P989989
-  Type: Cgl_Motor_PI
-  Children:
-  - Name: Device
-    Type: NodePointer
-    DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/P989989"
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillDevice_Motor"
-  - Name: Interlock
-    Type: NodePointer
-    DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/P989989_Ilock"
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: "/Objects/Cargill_Charlotte_wStandards/Model/CargillFunction_Interlock"
-  - Name: Permissive
-    Type: NodePointer
-    DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/P989989_Perm"
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/P613_Perm"
     Children:
     - Name: Kind
       Type: PropertyType

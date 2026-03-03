@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using FTOptix.Alarm;
 using FTOptix.SerialPort;
+using FTOptix.EventLogger;
 #endregion
 
 public class AlarmFilterQueryBuilderLogic : BaseNetLogic

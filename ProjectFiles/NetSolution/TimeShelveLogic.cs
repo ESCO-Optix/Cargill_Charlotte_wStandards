@@ -3,6 +3,7 @@ using UAManagedCore;
 using FTOptix.UI;
 using FTOptix.NetLogic;
 using FTOptix.Alarm;
+using FTOptix.EventLogger;
 #endregion
 
 public class TimeShelveLogic : BaseNetLogic

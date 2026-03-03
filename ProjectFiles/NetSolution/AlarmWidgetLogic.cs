@@ -7,6 +7,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using UAManagedCore;
 using FTOptix.Alarm;
+using FTOptix.EventLogger;
 using static AlarmFilterDataLogic;
 #endregion
 
