@@ -1,5 +1,3 @@
-Name: <AutomaticMenuCreation>
-Type: FolderType
-Children:
-- File: Refining_Bleaching/Refining_Bleaching.yaml
-- File: Deodorizing/Deodorizing.yaml
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2c7bb1bed5172a12837670e303baa200219ad6f43f40a89c35acc65346f2f18
+size 150

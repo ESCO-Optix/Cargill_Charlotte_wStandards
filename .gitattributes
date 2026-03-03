@@ -242,4 +242,5 @@
 *.[zZ] filter=lfs diff=lfs merge=lfs -text
 *.[zZ][iI][pP] filter=lfs diff=lfs merge=lfs -text
 *.[zZ][iI][pP][xX]  filter=lfs diff=lfs merge=lfs -text
+*.yaml filter=lfs diff=lfs merge=lfs -text
 Nodes/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller_Tags/Controller_Tags.yaml filter=lfs diff=lfs merge=lfs -text

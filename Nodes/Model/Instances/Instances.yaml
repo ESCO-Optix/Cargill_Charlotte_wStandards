@@ -1,7 +1,3 @@
-Name: Instances
-Id: g=f676569adff57584fff69552bf100d69
-Type: FolderType
-Children:
-- File: Valves/Valves.yaml
-- File: Motors/Motors.yaml
-- File: AnalogInputs/AnalogInputs.yaml
+version https://git-lfs.github.com/spec/v1
+oid sha256:87a29d9bdb2b3c0fa74b0445bd626924d0be16eb26f4e939e8a6957d3198948d
+size 212

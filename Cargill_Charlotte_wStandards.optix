@@ -107,15 +107,15 @@ Project:
    Module: FTOptix.EventLogger.Net
    Version: 1.0
  Statistics:
-  TotalNodeCount: 1073338
-  Objects: 5137
+  TotalNodeCount: 1085507
+  Objects: 6244
   ObjectTypes: 166
-  Variables: 1067966
+  Variables: 1079028
   VariableTypes: 13
   DataTypes: 13
   Methods: 43
   References: 140
   ReferenceTypes: 0
-  Files: 76
+  Files: 77
  Nodes:
  - File: Nodes/Cargill_Charlotte_wStandards.yaml

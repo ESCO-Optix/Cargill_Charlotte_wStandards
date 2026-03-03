@@ -1,25 +1,3 @@
-Name: TagImporter
-Type: RAEtherNetIPTagImporter
-OwnerId: ns=2;g=b6056fda87dd5dcf5c8eafdd21c29067
-Children:
-- Name: IgnoredPLCItems
-  Type: BaseDataVariableType
-  DataType: BaseDataType
-  ValueRank: OneDimension
-  ArrayDimensions: [0]
-- Name: IgnoredHMIItems
-  Type: BaseDataVariableType
-  DataType: NodeId
-  ValueRank: OneDimension
-  ArrayDimensions: [0]
-- Name: FilePath
-  Type: BaseDataVariableType
-  DataType: AbsoluteResourceUri
-- Name: Mode
-  Type: BaseDataVariableType
-  DataType: FetchModes
-  Value: 1
-- Name: ImportTypes
-  Type: BaseDataVariableType
-  DataType: Boolean
-  Value: true
+version https://git-lfs.github.com/spec/v1
+oid sha256:5332f94de900590cad5b0d2d493e64ba954c685214e2b035eb31ffe72959fd15
+size 617

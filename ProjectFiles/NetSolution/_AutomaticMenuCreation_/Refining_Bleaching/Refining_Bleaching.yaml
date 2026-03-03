@@ -1,8 +1,3 @@
-Name: Refining_Bleaching
-Type: FolderType
-Children:
-- Name: RB_L1
-  Id: g=d9e9eee0349b4c8e38e3de7a16cd98d9
-  Supertype: Screen
-  ReferenceType: HasComponent
-- File: L2/L2.yaml
+version https://git-lfs.github.com/spec/v1
+oid sha256:445d90028154af8348ddef26008fe48370ab9921a35d8e2968d0bb77f001ed93
+size 184

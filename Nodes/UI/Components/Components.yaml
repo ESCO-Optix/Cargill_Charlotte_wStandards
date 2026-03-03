@@ -1,14 +1,3 @@
-Name: Components
-Type: FolderType
-Description: {"LocaleId":"en-US","Text":"PanelLoaders, layouts, navigation ect."}
-Children:
-- File: Toolbox/Toolbox.yaml
-- File: GraphicObjects/GraphicObjects.yaml
-- File: DataDisplay/DataDisplay.yaml
-- File: Config/Config.yaml
-- File: Buttons/Buttons.yaml
-- File: Faceplate_Panels/Faceplate_Panels.yaml
-- File: DialogBox/DialogBox.yaml
-- File: Loaders_and_Nav_Panels/Loaders_and_Nav_Panels.yaml
-- File: LoginFormComponents/LoginFormComponents.yaml
-- File: NodesCounterDialog/NodesCounterDialog.yaml
+version https://git-lfs.github.com/spec/v1
+oid sha256:aaf1f0b6600adb3201e2097dd967537074644a683748b6b7eb5d1eda4a52c457
+size 548

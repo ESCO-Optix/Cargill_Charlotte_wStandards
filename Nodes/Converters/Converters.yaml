@@ -1,5 +1,3 @@
-Name: Converters
-Type: ConvertersCategoryFolder
-Children:
-- File: Equations/Equations.yaml
-- File: Color/Color.yaml
+version https://git-lfs.github.com/spec/v1
+oid sha256:39d901a761026ec715e3aa29cf0e87865448be3b77ad52e5c9aac19167270128
+size 121
