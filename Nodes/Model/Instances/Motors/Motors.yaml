@@ -8,7 +8,7 @@ Children:
   - Name: Device
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/P999999"
+    Value: {"IdType":2,"Id":"ba6602561d8f7b7b34c5a70c33a15bd5","Namespace":24}
     Children:
     - Name: Kind
       Type: PropertyType
@@ -17,7 +17,7 @@ Children:
   - Name: Interlock
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/P999999_Ilock"
+    Value: {"IdType":2,"Id":"f7da5cf9954cc3244cd3a23646ff10c6","Namespace":24}
     Children:
     - Name: Kind
       Type: PropertyType
@@ -26,7 +26,7 @@ Children:
   - Name: Permissive
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags/P999999_Perm"
+    Value: {"IdType":2,"Id":"79cc618657a24e096d143755aac03e09","Namespace":24}
     Children:
     - Name: Kind
       Type: PropertyType

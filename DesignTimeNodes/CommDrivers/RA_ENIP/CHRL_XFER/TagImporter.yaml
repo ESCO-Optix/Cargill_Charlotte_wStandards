@@ -19,3 +19,7 @@ Children:
   Type: BaseDataVariableType
   DataType: FetchModes
   Value: 1
+- Name: ImportTypes
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true

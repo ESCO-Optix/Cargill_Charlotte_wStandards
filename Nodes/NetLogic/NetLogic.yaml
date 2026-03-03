@@ -178,3 +178,41 @@ Children:
     DataType: Int32
 - Name: UserLoginEventHandler
   Type: NetLogic
+- Name: UpdateInstances
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: UpdateModelInstances
+  - Name: PathToTags
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/CommDrivers/RA_ENIP/CHRL_XFER/Tags/Controller Tags"
+  - Name: PathToTypes
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/Model/ObjectTypes"
+  - Name: PathToInstances
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Cargill_Charlotte_wStandards/Model/Instances"
+  - Name: ns=17;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 17
+      },
+      "Body": {
+       "libraryGuid": "57c7a4e0e5a2c3356b181363c7ca3a7d",
+       "objectGuid": "528e0299a34da1937025213c3b44697a",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
